@@ -1,6 +1,6 @@
 const NavBar = () => {
     const aStyles = "text-contrast mr-5 hover:text-primary cursor-pointer"
-    const containerStyles = 'flex flex-wrap p-5 flex-col items-center md:justify-between md:items-center md:flex-row';
+    const containerStyles = 'flex flex-wrap px-12 py-5 flex-col items-center md:justify-between md:items-center md:flex-row';
     return ( 
             <div class={containerStyles}>
                 <a class="flex title-font font-medium items-center mb-4 md:mb-0">
