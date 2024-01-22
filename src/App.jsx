@@ -1,12 +1,14 @@
 import NavBar from "./components/NavBar"
+import Hero from "./components/Hero"
 
 function App() {
   return (
-    <div className="container-fluid bg-bg">
-      <header className="grid grid-cols-1">
+    <div className="container-fluid ">
+      <header className="container-fluid bg-bgColor">
         <NavBar/>
+        <Hero/>
       </header>
-      <main>
+      <main className="bg-bgColor">
 
       </main>
       <footer>

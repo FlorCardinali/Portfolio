@@ -10,7 +10,7 @@ export default {
     extend: {
       colors :{
         primary: "#be8c58",
-        bg: "#2f2d2d",
+        bgColor: "#2f2d2d",
         contrast: "#d1cfcd"
       }
     },
