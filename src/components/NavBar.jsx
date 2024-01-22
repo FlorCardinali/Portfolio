@@ -1,5 +1,5 @@
-const NavBar = (image) => {
-    const aStyles = "text-contrast " + "mr-5 " + "hover:text-primary " + "cursor-pointer ";
+const NavBar = () => {
+    const aStyles = "text-contrast hover:font-bold hover:text-white cursor-pointer ";
     const containerStyles = 
         "flex " + 
         "flex-wrap " + 
@@ -12,20 +12,20 @@ const NavBar = (image) => {
         "md:flex-row " +
         "fixed " +
         "w-screen " +
-        "bg-bgColor/80 " 
+        "bg-bgColor/70 " 
         ;
     return ( 
     <div className="relative">
-        <div class={containerStyles}>
-            <a class="flex title-font font-medium items-center mb-4 md:mb-0">
-                <img src=""></img>
-                <span class="ml-3 text-base text-contrast">Flor Cardinali</span>
+        <div className={containerStyles}>
+            <a className="flex justify-center gap-4 font-medium items-center md:mb-0">
+                <img className="border border-primary rounded-full w-[40px]" src="./public/perfil.jpg"></img>
+                <span className="ml-3 text-2xl text-contrast">Flor Cardinali</span>
             </a>
-            <nav class="flex flex-wrap flex-row justify-center text-base md:">
-                <a class={aStyles}>First Link</a>
-                <a class={aStyles}>Second Link</a>
-                <a class={aStyles}>Third Link</a>
-                <a class={aStyles}>Fourth Link</a>
+            <nav className=" basis-1/3 flex gap-8 flex-wrap flex-row justify-center items-center mr-5 text-base ">
+                <a className="text-contrast text-[18px] font-bold hover:text-white cursor-pointer ">About</a>
+                <a className={aStyles}>Second Link</a>
+                <a className={aStyles}>Third Link</a>
+                <a className={aStyles}>Fourth Link</a>
             </nav>
         </div>
     </div>

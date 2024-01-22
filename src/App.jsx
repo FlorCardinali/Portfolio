@@ -9,7 +9,7 @@ function App() {
         <Hero/>
       </header>
       <main className="bg-bgColor">
-
+        <h2>asdasdasd</h2>
       </main>
       <footer>
 
