@@ -15,10 +15,10 @@ const NavBar = () => {
         "bg-bgColor/70 " 
         ;
     return ( 
-    <div className="relative">
+    <div className="relative z-40">
         <div className={containerStyles}>
             <a className="flex justify-center gap-4 font-medium items-center md:mb-0">
-                <img className="border border-primary rounded-full w-[40px]" src="./public/perfil.jpg"></img>
+                <img className="border border-primary rounded-full w-[40px]" src="./perfil.jpg"></img>
                 <span className="ml-3 text-2xl text-contrast">Flor Cardinali</span>
             </a>
             <nav className=" basis-1/3 flex gap-8 flex-wrap flex-row justify-center items-center mr-5 text-base ">
