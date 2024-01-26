@@ -7,7 +7,3 @@
     padding: 0;
     box-sizing: border-box;
 }
-.clip-paralelogram {
-    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-    object-fit: cover;
-}

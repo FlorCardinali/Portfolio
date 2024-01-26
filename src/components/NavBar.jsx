@@ -17,7 +17,7 @@ const NavBar = () => {
     return ( 
     <div className="relative z-40">
         <div className={containerStyles}>
-            <a className="flex justify-center gap-4 font-medium items-center md:mb-0">
+            <a className="flex justify-center gap-4 font-medium items-center">
                 <img className="border border-primary rounded-full w-[40px]" src="./perfil.jpg"></img>
                 <span className="ml-3 text-2xl text-contrast">Flor Cardinali</span>
             </a>
