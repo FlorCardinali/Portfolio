@@ -2,13 +2,13 @@ const Hero = () => {
 const imgStyles = "w-8 hover:scale-110";
     return ( 
         <>
-            <div className="flex relative flex-col justify-end items-center h-screen text-contrast bg-[url('./fondo.jpeg')] bg-top bg-no-repeat bg-cover bg-fixed">
+            <div className="flex relative flex-col justify-end items-center h-screen text-contrast bg-[url('./escalada.jpeg')] bg-top bg-no-repeat bg-cover bg-fixed">
                 <div className="absolute text-center container-fluid bottom-[40vh] flex flex-col">
                     <div>
                         <h1 className="text-7xl font-bold ">Bienvenidos</h1>
-                        <p className="text-2xl font-extrabold text-secondary"> Me alegra que estes aqui!</p>                        
+                        <p className="text-2xl font-extrabold text-secondary">Te invito a conocerme!</p>                        
                     </div>
-                    <div className="p-2 flex flex-row gap-5 justify-center items-center">
+                    <div className="p-5 flex flex-row gap-5 justify-center items-center">
                         <a href="">
                             <img className={imgStyles} src="facebook.png" alt="Imagen"></img>
                         </a>

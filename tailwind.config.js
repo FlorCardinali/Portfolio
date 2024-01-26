@@ -14,8 +14,8 @@ export default {
       colors :{
         primary: "#be8c58",
         secondary: "#a46c3c",
-        bgColor: "#2f2d2d",
-        contrast: "#d1cfcd",
+        bgColor: "#262321",
+        contrast: "#cecbca",
         green: "#7a9a43"
       }
     },
