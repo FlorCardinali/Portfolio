@@ -10,7 +10,7 @@ function App() {
         <NavBar/>
         <Hero/>
       </header>
-      <main className="bg-contrast ">
+      <main className="">
         <AboutMe/>
       </main>
       
