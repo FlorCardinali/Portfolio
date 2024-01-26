@@ -8,12 +8,15 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        bg_wave: "url('./wave-haikei.svg')",
+      },
       colors :{
         primary: "#be8c58",
-        secondary: "#535252",
+        secondary: "#a46c3c",
         bgColor: "#2f2d2d",
         contrast: "#d1cfcd",
-        green: "#5a7a24"
+        green: "#7a9a43"
       }
     },
   },
