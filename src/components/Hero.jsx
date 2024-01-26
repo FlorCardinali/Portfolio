@@ -6,7 +6,7 @@ const imgStyles = "w-8 hover:scale-110";
                 <div className="absolute text-center container-fluid bottom-[40vh] flex flex-col">
                     <div className="animate-fade animate-once animate-duration-[800ms] animate-ease-in animate-normal animate-fill-both">
                         <h1 className="text-7xl font-bold p-2">Bienvenidos</h1>
-                        <p className="text-2xl font-extrabold text-secondary">Te invito a conocerme!</p>                        
+                        <p className="text-2xl font-extrabold text-green">Te invito a conocerme!</p>                        
                     </div>
                     <div className="p-5 flex flex-row gap-5 justify-center items-center">
                         <a href="">
