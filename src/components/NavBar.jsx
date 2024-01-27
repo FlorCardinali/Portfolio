@@ -22,10 +22,10 @@ const NavBar = () => {
                 <span className="ml-3 text-2xl text-contrast">Flor Cardinali</span>
             </a>
             <nav className=" basis-1/3 flex gap-8 flex-wrap flex-row justify-center items-center mr-5 text-base ">
-                <a href="#about-section" className="text-primary text-[18px] font-extrabold hover:text-white cursor-pointer ">Sobre Mi</a>
+                <a href="#" className="text-primary text-[18px] font-extrabold hover:text-white cursor-pointer ">Inicio</a>
+                <a href="#about-section" className={aStyles}>Sobre Mi</a>
                 <a href="#experience-section" className={aStyles}>Experiencia</a>
-                <a href="#" className={aStyles}>Third Link</a>
-                <a href="#" className={aStyles}>Fourth Link</a>
+                <a href="#proyects-section" className={aStyles}>Proyectos</a>
             </nav>
         </div>
     </div> 

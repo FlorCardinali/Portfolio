@@ -1,20 +1,20 @@
 const Proyects = () => {
     return (
         <>
-            <div className="bg-contrast">
-                <section className="w-screem px-10 gap-3 flex flex-col items-center lg:-translate-y-24 ">
+            <div id="proyects-section" className="bg-contrast">
+                <section className="w-screem pt-10 h-fit gap-1 flex flex-col items-center lg:-translate-y-24 ">
                     <article className="flex flex-col p-5 text-center items-center ">
                         <h5 className="bg-clip-text font-extrabold text-transparent bg-gradient-to-r from-primary to-green text-5xl sm:text-8xl py-5">
                             Mis Proyectos
                         </h5>
-                        <p className="w-[50%] text-center">
+                        <p className="w-[60%] text-center">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quis doloremque corrupti aut quaerat obcaecati!
                         </p>
                     </article>
 
                     <article className="flex-wrap lg:flex-row flex-col justify-center xl:justify-start items-center flex p-2 gap-3 ">
 
-                        <div className="max-w-sm bg-bgColor border-gray-200 rounded-lg  ">
+                        <div className="max-w-[18rem] bg-bgColor border-gray-200 rounded-lg  ">
                             <a href="#">
                                 <img className="rounded-t-lg" src="/img1.jpg" alt="" />
                             </a>
@@ -32,7 +32,7 @@ const Proyects = () => {
                             </div>
                         </div>
 
-                        <div className="max-w-sm bg-bgColor border-gray-200 rounded-lg  ">
+                        <div className="max-w-[18rem] bg-bgColor border-gray-200 rounded-lg  ">
                             <a href="#">
                                 <img className="rounded-t-lg" src="/img2.jpg" alt="" />
                             </a>
@@ -50,7 +50,7 @@ const Proyects = () => {
                             </div>
                         </div>
 
-                        <div className="max-w-sm bg-bgColor border-gray-200 rounded-lg  ">
+                        <div className="max-w-[18rem] bg-bgColor border-gray-200 rounded-lg  ">
                             <a href="#">
                                 <img className="rounded-t-lg" src="/img3.jpg" alt="" />
                             </a>
