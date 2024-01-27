@@ -2,22 +2,22 @@ import NavBar from "./components/NavBar"
 import Hero from "./components/Hero"
 import AboutMe from "./components/AboutMe"
 import Experience from "./components/Experience"
-import Education from "./components/Education"
 import Proyects from "./components/Proyects"
-//  bg-gradient-to-t to-bgColor from-secondary
+import Studies from "./components/Studies"
+
 
 function App() {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid ">
       <header className="container-fluid ">
         <NavBar/>
         <Hero/>
       </header>
       <main className="">
-        <AboutMe/>
+        <AboutMe />
         <Experience/>
-        <Education/>
         <Proyects/>
+        <Studies/>
       </main>
       
       <footer>

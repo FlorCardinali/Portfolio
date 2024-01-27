@@ -5,7 +5,7 @@ const imgStyles = "w-8 hover:scale-110";
             <div className="flex relative flex-col justify-end items-center h-[98vh] text-contrast bg-[url('./escalada.jpeg')] bg-top bg-no-repeat bg-cover bg-fixed mb-[-15px]">
                 <div className="absolute text-center container-fluid bottom-[40vh] flex flex-col">
                     <div className="animate-fade animate-once animate-duration-[800ms] animate-ease-in animate-normal animate-fill-both">
-                        <h1 className="text-7xl font-bold p-2">Bienvenidos</h1>
+                        <h1 className="md:text-7xl text-6xl font-bold p-2">Bienvenidos</h1>
                         <p className="text-2xl font-extrabold text-green">Te invito a conocerme!</p>                        
                     </div>
                     <div className="p-5 flex flex-row gap-5 justify-center items-center">
