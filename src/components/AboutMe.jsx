@@ -2,7 +2,7 @@ const AboutMe = () => {
     const spam_style = " font-extrabold text-green ";
     return ( 
         <>
-        <section className="bg-contrast gap-12 flex lg:flex-row flex-col-reverse items-center lg:items-center justify-center h-auto p-12">
+        <section className="bg-contrast gap-12 flex lg:flex-row flex-col-reverse items-center lg:items-center justify-center h-auto p-12 relative">
             
             <article className="gap-4 flex flex-col text-center lg:text-right text-bgColor w-[100%] lg:w-[40%]">
                 <div>
@@ -23,7 +23,10 @@ const AboutMe = () => {
             <div className="rounded-3xl  min-w-[300px] min-h-[400px] max-h-[500px] bg-cover bg-center bg-no-repeat bg-[url('./foto-about.jpeg')] ">               
             </div>
         </section>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#cecbca" fill-opacity="1" d="M0,64L80,74.7C160,85,320,107,480,106.7C640,107,800,85,960,80C1120,75,1280,85,1360,90.7L1440,96L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
+        <div className="w-screen absolute ">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#cecbca" fill-opacity="1" d="M0,64L80,74.7C160,85,320,107,480,106.7C640,107,800,85,960,80C1120,75,1280,85,1360,90.7L1440,96L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
+        </div>
+        
     </>
         );
 }
