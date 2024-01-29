@@ -1,22 +1,22 @@
 const Hero = () => {
-const imgStyles = "w-8 hover:scale-110";
+const imgStyles = "w-8 hover:scale-150 hover:drop-shadow-[0px_0px_5px_rgba(190,140,88,1)] ";
     return ( 
         <>
             <div className="flex relative flex-col justify-end items-center h-[98vh] text-contrast bg-[url('./escalada.jpeg')] bg-left lg:bg-top bg-no-repeat bg-cover bg-fixed mb-[-15px]">
                 <div className="absolute text-center container-fluid bottom-[40vh] flex flex-col">
                     <div className="animate-fade animate-once animate-duration-[800ms] animate-ease-in animate-normal animate-fill-both">
-                        <h1 className="md:text-7xl text-5xl font-bold p-2">Bienvenidos</h1>
-                        <p className="text-2xl font-extrabold text-green">Te invito a conocerme!</p>                        
+                        <h1 className="md:text-8xl text-5xl p-2  font-black bg-clip-text text-transparent bg-gradient-to-r from-primary to-green ">Bienvenidos</h1>
+                        <p className="md:text-2xl text-xl font-extrabold text-contrast">Te invito a conocerme!</p>                        
                     </div>
                     <div className="p-5 flex flex-row gap-5 justify-center items-center">
-                        <a href="">
-                            <img className={imgStyles} src="facebook.png" alt="Imagen"></img>
-                        </a>
                         <a href="">
                             <img className={imgStyles} src="github.png" alt="Imagen"></img>
                         </a>
                         <a href="">
                             <img className={imgStyles} src="linkedin.png" alt="Imagen"></img>
+                        </a>
+                        <a href="">
+                            <img className={imgStyles} src="facebook.png" alt="Imagen"></img>
                         </a>
                     </div>
                 </div>

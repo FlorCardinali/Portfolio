@@ -22,12 +22,12 @@ const AboutMe = () => {
                         Como se observa a simple vista, soy albina, tengo una discapacidad visual parcial del 78%, sin embargo, esto no me limita en mi carrera y pienso seguir creciendo y  <span className={spam_style}>estudiando siempre</span>. 
                         </p>
                     </article>
-                    <div className="rounded-3xl  min-w-[300px] min-h-[400px] max-h-[500px] bg-cover bg-center bg-no-repeat bg-[url('./foto-about.jpeg')] ">               
+                    <div className="rounded-3xl  min-w-[300px] min-h-[400px] max-h-[500px] bg-cover bg-center bg-no-repeat bg-[url('./foto-about.jpeg')] shadow-xl">               
                     </div>
                 </div>               
             </section>
             <div className="bg-bgColor overflow-hidden h-[150px]">
-                <svg className="w-screen" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#cecbca" fill-opacity="1" d="M0,64L80,74.7C160,85,320,107,480,106.7C640,107,800,85,960,80C1120,75,1280,85,1360,90.7L1440,96L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
+                <svg className="w-screen shadow-2xl" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#cecbca" fill-opacity="1" d="M0,64L80,74.7C160,85,320,107,480,106.7C640,107,800,85,960,80C1120,75,1280,85,1360,90.7L1440,96L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
             </div>
         </div>
     </>    

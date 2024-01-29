@@ -5,7 +5,7 @@ const Experience = () => {
         <div id="experience-section">
             <section class="text-contrast bg-bgColor overflow-hidden px-10">
                 <article className="flex flex-col px-5 text-center items-center ">
-                    <h5 className="bg-clip-text font-extrabold text-transparent bg-gradient-to-r from-primary to-green text-5xl sm:text-6xl py-5">
+                    <h5 className="bg-clip-text text-transparent bg-gradient-to-r from-primary to-green text-5xl font-extrabold sm:text-6xl py-5">
                         Experiencia
                     </h5>
                     <p className="w-[100%] md:w-[70%] lg:w-[40%] text-center">
@@ -48,8 +48,8 @@ const Experience = () => {
                     </div>
                 </div>
             </section>
-            <div className="bg-contrast h-[100px]  lg:h-[250px]">
-                <svg className="w-screen" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#211e1c" fill-opacity="1" d="M0,96L80,85.3C160,75,320,53,480,53.3C640,53,800,75,960,117.3C1120,160,1280,224,1360,256L1440,288L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
+            <div className="bg-contrast h-[100px] lg:h-[250px]">
+                <svg className="w-screen " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#211e1c" fill-opacity="1" d="M0,96L80,85.3C160,75,320,53,480,53.3C640,53,800,75,960,117.3C1120,160,1280,224,1360,256L1440,288L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
             </div>
         </div>
         </>
