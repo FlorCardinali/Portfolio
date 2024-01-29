@@ -8,7 +8,7 @@ import Studies from "./components/Studies"
 
 function App() {
   return (
-    <div className="container-fluid ">
+    <div className="container-fluid overflow-hidden ">
       <header className="container-fluid ">
         <NavBar/>
         <Hero/>

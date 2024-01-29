@@ -12,7 +12,7 @@ const Proyects = () => {
                         </p>
                     </article>
 
-                    <article className="flex-wrap lg:flex-row flex-col justify-center xl:justify-start items-center flex p-2 gap-3 ">
+                    <article className="flex-wrap md:flex-row flex-col justify-center xl:justify-start items-center flex p-2 gap-3 ">
 
                         <div className="max-w-[18rem] bg-bgColor border-gray-200 rounded-lg  ">
                             <a href="#">
@@ -71,7 +71,7 @@ const Proyects = () => {
                     </article>         
                 </section>
                 <div className="bg-bgColor w-screen">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#cecbca" fill-opacity="1" d="M0,96L80,112C160,128,320,160,480,149.3C640,139,800,85,960,64C1120,43,1280,53,1360,58.7L1440,64L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#cecbca" fill-opacity="1" d="M0,96L80,112C160,128,320,160,480,149.3C640,139,800,85,960,64C1120,43,1280,53,1360,58.7L1440,64L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
                 </div>
             </div>
         </>  
