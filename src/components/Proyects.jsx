@@ -2,17 +2,17 @@ const Proyects = () => {
     return (
         <>
             <div id="proyects-section" className="bg-contrast">
-                <section className="w-screem pt-10 h-fit gap-1 flex flex-col items-center lg:-translate-y-24 ">
-                    <article className="flex flex-col p-5 text-center items-center ">
-                        <h5 className="bg-clip-text font-extrabold text-transparent bg-gradient-to-r from-primary to-green text-5xl sm:text-8xl py-5">
+                <section className="w-screem space-y-5 pt-10 h-fit gap-1 flex flex-col items-center lg:-translate-y-24 ">
+                    <article className="flex flex-col text-center items-center ">
+                        <h5 className="bg-clip-text font-extrabold text-transparent bg-gradient-to-r from-primary to-green text-5xl sm:text-6xl py-5">
                             Mis Proyectos
                         </h5>
-                        <p className="w-[60%] text-center">
+                        <p className="w-[80%] md:w-[70%] lg:w-[50%] text-center">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quis doloremque corrupti aut quaerat obcaecati!
                         </p>
                     </article>
 
-                    <article className="flex-wrap md:flex-row flex-col justify-center xl:justify-start items-center flex p-2 gap-3 ">
+                    <article className="flex-wrap  md:flex-row flex-col justify-center xl:justify-start items-center flex pb-14 gap-3 ">
 
                         <div className="max-w-[18rem] bg-bgColor border-gray-200 rounded-lg  ">
                             <a href="#">
