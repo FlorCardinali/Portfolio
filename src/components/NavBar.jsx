@@ -18,6 +18,8 @@ const NavBar = () => {
                 <a href="#about-section" className={aStyles}>Sobre mi</a>
                 <a href="#experience-section" className={aStyles}>Experiencia</a>
                 <a href="#proyects-section" className={aStyles}>Proyectos</a>
+                <a href="#education-section" className={aStyles}>Estudios</a>
+
             </nav>
 
             <button className="space-y-1 p-2 lg:hidden z-10" onClick={handleClick}>
@@ -26,11 +28,13 @@ const NavBar = () => {
                 <div className='w-6 h-1 bg-white'></div>
             </button>
 
-            <nav className={`${open ? "right-0" : "-right-full"} top-[55px] bg-bgColor/50 w-screen flex flex-col space-y-5 text-center absolute items-center p-5 text-xl transition-all duration-500 `}>
+            <nav className={`${open ? "right-0" : "-right-[250%]"} top-[55px] bg-bgColor/50 w-screen flex flex-col space-y-5 text-center absolute items-center p-5 text-xl transition-all duration-500 `}>
                 <a href="#" className=" text-[18px] font-extrabold hover:text-xl text-white cursor-pointer ">Inicio</a>
                 <a href="#about-section" className={aStyles}>Sobre mi</a>
                 <a href="#experience-section" className={aStyles}>Experiencia</a>
                 <a href="#proyects-section" className={aStyles}>Proyectos</a>
+                <a href="#education-section" className={aStyles}>Estudios</a>
+
             </nav>
 
         </div>

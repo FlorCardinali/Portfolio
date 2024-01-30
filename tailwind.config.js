@@ -8,9 +8,6 @@ export default {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        bg_wave: "url('./wave-haikei.svg')",
-      },
       colors :{
         primary: "#be8c58",
         secondary: "#a46c3c",
