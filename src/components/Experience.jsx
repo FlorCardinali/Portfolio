@@ -1,17 +1,15 @@
+import Title from "./Title";
+
 const Experience = () => {
 
     return (  
         <>
         <div id="experience-section" className="pt-24 bg-bgColor">
             <section className="text-contrast bg-bgColor overflow-hidden px-10">
-                <article className="flex flex-col px-5 text-center items-center ">
-                    <h5 className="bg-clip-text text-transparent bg-gradient-to-r from-primary to-green text-5xl font-extrabold sm:text-6xl py-5">
-                        Experiencia
-                    </h5>
-                    <p className="w-[100%] md:w-[70%] lg:w-[40%] text-center">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quis doloremque corrupti aut quaerat obcaecati!
-                    </p>
-                </article>
+                <Title
+                    title="Experiencia"
+                    content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quis doloremque corrupti aut quaerat obcaecati!"
+                />
                 <div className="relative container px-5 py-24 mx-auto">
                     <div className="-my-8 divide-y-2 divide-primary">
                         <div className="py-8 flex flex-wrap md:flex-nowrap">

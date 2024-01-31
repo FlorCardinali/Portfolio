@@ -1,3 +1,4 @@
+import Title from "./Title";
 
 
 
@@ -5,7 +6,7 @@ const Studies = () => {
 
     const ItemStudy = ({title,subtitle,contenido,link,img}) => {
         return (
-        <div className="flex justify-center items-center flex-col lg:flex-row">
+        <article className="flex justify-center items-center flex-col lg:flex-row">
                 <a href="">
                     <img className="lg:rounded-xl lg:max-w-[30vw] w-screen m-8 hover:scale-110 transition-all duration-300" src={img}></img>   
                 </a>
@@ -29,7 +30,7 @@ const Studies = () => {
                     
                 </div> 
 
-        </div>
+        </article>
         );
     }
 
@@ -41,14 +42,10 @@ const Studies = () => {
         <div id="education-section">
         </div>
             <section className="w-screen pt-24 bg-bgColor text-contrast ">
-                <article className=" flex flex-col px-5 text-center items-center ">
-                    <h5 className="bg-clip-text text-transparent bg-gradient-to-r from-primary to-green text-5xl font-extrabold sm:text-6xl py-5">
-                        Educación
-                    </h5>
-                    <p className="w-[100%] md:w-[70%] lg:w-[40%] text-center">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quis doloremque corrupti aut quaerat obcaecati!
-                    </p>
-                </article>
+                <Title
+                    title="Estudios"
+                    content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quis doloremque corrupti aut quaerat obcaecati!"
+                />
 
                <article className="text-contrast  px-5 py-12 mx-auto flex flex-wrap justify-center w-screen">
                  

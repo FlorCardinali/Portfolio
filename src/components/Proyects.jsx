@@ -1,25 +1,27 @@
+import Title from "./Title";
+
 const Proyects = () => {
 
     const CardProyect = ({content, title,img,link}) => {
         return (
             <>
-                <div className=" max-w-[22rem] bg-bgColor border-gray-200 rounded-lg  ">
-                    <a href={link}>
-                        <img className="rounded-t-lg" src={img} alt="" />
-                    </a>
+                <a href={link} className=" hover:scale-105 cursor-pointer transition-all duration-300 max-w-[22rem] bg-bgColor border-gray-200 rounded-lg  ">
+                    
+                    <img className="rounded-t-lg" src={img} alt="" />
+                    
                     <div className="p-5">
-                        <a href="#">
-                            <h5 className="mb-2 text-2xl font-bold tracking-tight text-contrast">{title}</h5>
-                        </a>
+                        
+                        <h5 className="mb-2 text-2xl font-bold tracking-tight text-contrast">{title}</h5>
+                        
                         <p className="mb-3 font-normal text-contrast/80">{content}</p>
-                        <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-contrast bg-green/80 rounded-lg hover:bg-green hover:text-white hover:font-extrabold ">
+                        <div href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-contrast bg-green/80 rounded-lg hover:bg-green hover:text-white hover:font-extrabold ">
                             Ver más
                             <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="#aaa333" viewBox="0 0 14 10">
                             <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
                             </svg>
-                        </a>
+                        </div>
                     </div>
-                </div>
+                </a>
             </>
         );
     }
@@ -30,16 +32,12 @@ const Proyects = () => {
                 <section className="bg-contrast w-screem space-y-12 h-fit gap-1 flex flex-col items-center  ">
                 <div id="proyects-section">
                 </div>
-                    <article className="flex flex-col text-center items-center ">
-                        <h5 className="bg-clip-text font-extrabold text-transparent bg-gradient-to-r from-primary to-green text-5xl sm:text-6xl py-5">
-                            Mis Proyectos
-                        </h5>
-                        <p className="w-[80%] md:w-[70%] lg:w-[50%] text-center">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quis doloremque corrupti aut quaerat obcaecati!
-                        </p>
-                    </article>
+                    <Title
+                        title="Proyectos"
+                        content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quis doloremque corrupti aut quaerat obcaecati!"
+                    />
 
-                    <article className="flex-wrap  md:flex-row flex-col justify-center  items-center flex pb-14 lg:p-0 gap-3 ">
+                    <article className="flex-wrap  md:flex-row flex-col justify-center  items-center flex pb-14 lg:p-0 gap-4 ">
 
                         <CardProyect 
                             title="Titulo 1"
