@@ -48,7 +48,7 @@ const Experience = () => {
                     </div>
                 </div>
             </section>
-            <div className="bg-contrast h-[100px] lg:h-[250px]">
+            <div className="bg-contrast h-[100px] ">
                 <svg className="w-screen " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#211e1c" fillOpacity="1" d="M0,160L48,160C96,160,192,160,288,138.7C384,117,480,75,576,53.3C672,32,768,32,864,48C960,64,1056,96,1152,101.3C1248,107,1344,85,1392,74.7L1440,64L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
             </div>
         </div>

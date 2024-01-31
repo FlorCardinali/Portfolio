@@ -3,30 +3,33 @@
 
 const Studies = () => {
 
-    const ItemStudy = ({title,subtitle,contenido,link}) => {
+    const ItemStudy = ({title,subtitle,contenido,link,img}) => {
         return (
-        <>
-            <div className="flex flex-row mb-5 sm:mb-10 items-start ">
-
-                <div className="space-y-8 w-[80%] flex flex-col items-start">
+        <div className="flex justify-center items-center flex-col lg:flex-row">
+                <a href="">
+                    <img className="lg:rounded-xl lg:max-w-[30vw] w-screen m-8 hover:scale-110 transition-all duration-300" src={img}></img>   
+                </a>
+                
+                
+                 <div className="space-y-10 w-full p-10 flex flex-col items-start">
                     <div className="text-left space-y-5">
                         <h2 className="text-primary text-3xl font-bold pb-3 w-[80%] ">{title}</h2>
                         <span className="text-contrast/70">{subtitle}</span>
-                        <p className="text-left ">{contenido}</p>
+                        <p className="text-left lg:max-w-[50vw]">{contenido}</p>
                     </div>
                     
 
                     {link==="" ? <></> : 
-                    <button href={link}  className="flex-row flex items-center rounded-md px-4 py-1 text-contrast bg-primary">Certificado  
-                        <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                    <button href={link}  className="flex-row flex items-center rounded-md px-4  text-contrast bg-secondary hover:bg-primary">Certificado  
+                        <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                         <path d="M5 12h14M12 5l7 7-7 7"></path>
                         </svg>
                     </button>
                     }
-                </div>  
-            </div>
-            <div className="bg-primary h-[2px] -translate-x-9 md:translate-x-0 overflow-hidden w-[50vw] mb-12  min-w-[350px]"></div>
-        </>
+                    
+                </div> 
+
+        </div>
         );
     }
 
@@ -47,34 +50,34 @@ const Studies = () => {
                     </p>
                 </article>
 
-               <article className="text-contrast  px-5 py-24 mx-auto flex flex-wrap justify-center w-screen">
-                    {/* imagen */}
-                    <div className="relative lg:w-1/3 w-full mb-12 lg:mb-0 rounded-2xl overflow-hidden">
-                        <img alt="foto de notbook de Florencia Cardinali" className="object-cover object-right h-[500px]  w-screen lg:h-full lg:w-full" src="./foto.jpeg"></img>
-                    </div>
-
+               <article className="text-contrast  px-5 py-12 mx-auto flex flex-wrap justify-center w-screen">
+                 
                     {/* items */}
-                    <div className="flex flex-col  flex-wrap lg:py-6  lg:w-1/2 lg:pl-12 lg:text-left w-[80vw] h-full">
+                    <div className="flex flex-col  flex-wrap  lg:text-left w-fll h-full">
                         <ItemStudy 
                             title="Tecnicatura Universitaria en Programacion" 
                             subtitle= "Universidad Tecnologica Naciona - Facultad FRBB"
                             contenido="Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo voluptates, exercitationem dolore quod vitae optio ad dolores hic, suscipit reprehenderit velit laudantium. Necessitatibus temporibus expedita laudantium accusamus velit ad nulla." 
-                            link="us"/>
+                            link="us"
+                            img="./img1.jpg"/>
                         <ItemStudy 
                             title="Full Stack Developer"
                             subtitle= "Argentina Programa - #SéProgramar"
                             contenido="Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo voluptates, exercitationem dolore quod vitae optio ad dolores hic, suscipit reprehenderit velit laudantium. Necessitatibus temporibus expedita laudantium accusamus velit ad nulla." 
-                            link="u"/>
+                            link="u"
+                            img="./img1.jpg"/>
                         <ItemStudy 
                             title="Introduccion a la Programacion"
                             subtitle = "Escuela Accenture" 
                             contenido="Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo voluptates, exercitationem dolore quod vitae optio ad dolores hic, suscipit reprehenderit velit laudantium. Necessitatibus temporibus expedita laudantium accusamus velit ad nulla." 
-                            link="u"/>
+                            link="u"
+                            img="./img1.jpg"/>
                         <ItemStudy 
                             title="Reparacion de PC y redes" 
                             subtitle="Escuela Argentina de Idiomas y Tecnologia"
                             contenido="Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo voluptates, exercitationem dolore quod vitae optio ad dolores hic, suscipit reprehenderit velit laudantium. Necessitatibus temporibus expedita laudantium accusamus velit ad nulla." 
-                            link="u"/>
+                            link="u"
+                            img="./img1.jpg"/>
                         
                     </div>
                </article>
