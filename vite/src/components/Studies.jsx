@@ -56,25 +56,25 @@ const Studies = () => {
                             subtitle= "Universidad Tecnologica Naciona - Facultad FRBB"
                             contenido="Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo voluptates, exercitationem dolore quod vitae optio ad dolores hic, suscipit reprehenderit velit laudantium. Necessitatibus temporibus expedita laudantium accusamus velit ad nulla." 
                             link="us"
-                            img="./img1.jpg"/>
+                            img="/img1.jpg"/>
                         <ItemStudy 
                             title="Full Stack Developer"
                             subtitle= "Argentina Programa - #SéProgramar"
                             contenido="Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo voluptates, exercitationem dolore quod vitae optio ad dolores hic, suscipit reprehenderit velit laudantium. Necessitatibus temporibus expedita laudantium accusamus velit ad nulla." 
                             link="u"
-                            img="./img1.jpg"/>
+                            img="/img1.jpg"/>
                         <ItemStudy 
                             title="Introduccion a la Programacion"
                             subtitle = "Escuela Accenture" 
                             contenido="Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo voluptates, exercitationem dolore quod vitae optio ad dolores hic, suscipit reprehenderit velit laudantium. Necessitatibus temporibus expedita laudantium accusamus velit ad nulla." 
                             link="u"
-                            img="./img1.jpg"/>
+                            img="/img1.jpg"/>
                         <ItemStudy 
                             title="Reparacion de PC y redes" 
                             subtitle="Escuela Argentina de Idiomas y Tecnologia"
                             contenido="Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo voluptates, exercitationem dolore quod vitae optio ad dolores hic, suscipit reprehenderit velit laudantium. Necessitatibus temporibus expedita laudantium accusamus velit ad nulla." 
                             link="u"
-                            img="./img1.jpg"/>
+                            img="/img1.jpg"/>
                         
                     </div>
                </article>

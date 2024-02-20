@@ -10,7 +10,7 @@ const NavBar = () => {
     <div className="relative z-40">
         <div className= "justify-between flex md:px-12 px-6 py-3 gap-4 md:gap-0  md:flex-row fixed w-screen bg-bgColor/50 h-[55px]">
             <span className={`${open ? "-translate-x-[700px]" : "translate-x-0"} h-[30px] justify-center flex gap-4 font-medium items-center transition-transform duration-600`}>
-                <img className="border-2 m-0 p-0 border-primary rounded-2xl w-[40px]" src="./perfil.jpg"></img>
+                <img className="border-2 m-0 p-0 border-primary rounded-2xl w-[40px]" src="/perfil.jpg"></img>
                 <span className="ml-3 text-2xl text-contrast">Flor Cardinali</span>
             </span>
             <nav className=" basis-1/3 grow flex-row justify-end items-center mr-5 text-base lg:flex hidden text-center">

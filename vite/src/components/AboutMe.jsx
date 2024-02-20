@@ -22,7 +22,7 @@ const AboutMe = () => {
                         Como se observa a simple vista, soy albina, tengo una discapacidad visual parcial del 78%, sin embargo, esto no me limita en mi carrera y pienso seguir creciendo y  <span className={spam_style}>estudiando siempre</span>. 
                         </p>
                     </article>
-                    <div className="rounded-3xl  min-w-[300px] min-h-[400px] max-h-[500px] bg-cover bg-center bg-no-repeat bg-[url('./foto-about.jpeg')] shadow-xl">               
+                    <div className="rounded-3xl  min-w-[300px] min-h-[400px] max-h-[500px] bg-cover bg-center bg-no-repeat bg-[url('/foto-about.jpeg')] shadow-xl">               
                     </div>
                 </div>               
             </section>
