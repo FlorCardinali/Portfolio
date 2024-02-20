@@ -5,12 +5,11 @@ import Experience from "./components/Experience"
 import Proyects from "./components/Proyects"
 import Studies from "./components/Studies"
 import Contact from "./components/Contact"
-import { BrowserRouter as Router } from 'react-router-dom';
+
 
 
 function App() {
   return (
-    <Router>
       <div className="container-fluid overflow-hidden ">
         <header className="container-fluid ">
           <NavBar/>
@@ -28,7 +27,6 @@ function App() {
 
         </footer>
       </div>
-    </Router>
   )
 }
 
