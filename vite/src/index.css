@@ -7,3 +7,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* Ocultar completamente la barra de desplazamiento */
+::-webkit-scrollbar {
+    width: 0;
+  }
+  
+  /* Ocultar el indicador de desplazamiento */
+  ::-webkit-scrollbar-thumb {
+    display: none;
+  }

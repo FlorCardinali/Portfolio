@@ -27,7 +27,7 @@ const Contact = () => {
 
     return ( 
         <>
-            <section className="w-screen bg-contrast flex justify-center items-center pt-32">
+            <section id="contact-section" className="w-screen bg-contrast flex justify-center items-center pt-32">
                     
 
                 <div className="bg-bgColor rounded-3xl ">

@@ -47,10 +47,10 @@ const Experience = () => {
     const ExpModule = (props) => {
         const d = props.d;
         return ( 
-            <div className="py-8 flex flex-wrap md:flex-nowrap">
+            <div className="py-8 flex justify-center flex-wrap md:flex-nowrap">
                 <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col justify-center items-center text-center">
-                    <span className="w-[80%] pb-2 font-semibold title-font text-contrast">{d.categoria}</span>
-                    <time className="w-[80%] mt-1 text-contrast/70 text-sm">{d.fecha}</time>
+                    <span className=" md:w-[80%] pb-2 font-semibold title-font text-contrast">{d.categoria}</span>
+                    <time className="md:w-[80%] mt-1 text-contrast/70 text-sm">{d.fecha}</time>
                 </div>
                 <div className="md:flex-grow"> 
                     <h2 className="text-2xl font-medium text-primary title-font mb-2">{d.titulo}</h2>
@@ -68,7 +68,7 @@ const Experience = () => {
             <section className="text-contrast bg-bgColor overflow-hidden px-10">
                 <Title
                     title="Experiencia"
-                    content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quis doloremque corrupti aut quaerat obcaecati!"
+                    content=""
                 />
                 <div className="relative container px-5 py-24 mx-auto">
                     <div className="-my-8 divide-y-2 divide-primary">

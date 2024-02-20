@@ -19,7 +19,7 @@ const NavBar = () => {
                 <a href="#experience-section" className={aStyles}>Experiencia</a>
                 <a href="#proyects-section" className={aStyles}>Proyectos</a>
                 <a href="#education-section" className={aStyles}>Estudios</a>
-
+                <a href="#contact-section" className={aStyles}>Contacto</a>
             </nav>
 
             <button className="space-y-1 p-2 lg:hidden z-10" onClick={handleClick}>
@@ -34,6 +34,7 @@ const NavBar = () => {
                 <a href="#experience-section" className={aStyles}>Experiencia</a>
                 <a href="#proyects-section" className={aStyles}>Proyectos</a>
                 <a href="#education-section" className={aStyles}>Estudios</a>
+                <a href="#contact-section" className={aStyles}>Contacto</a>
 
             </nav>
 
