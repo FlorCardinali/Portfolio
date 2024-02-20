@@ -2,6 +2,66 @@ import Title from "./Title";
 
 const Experience = () => {
 
+
+
+    const data = [
+        {      
+            categoria: "PROGRAMACIÓN",
+            fecha: "oct 2023 - feb 2024",
+            titulo: "Tutora del Curso: Introducción a React Js",
+            descripción: "Brindé apoyo y mentoria a los alumnos del curso de React Js con temas de programación y posteriormente con el uso de la libreria."
+        },
+        {      
+            categoria: "PROGRAMACIÓN",
+            fecha: "jun 2023 - actualidad",
+            titulo: "Pasante para el Concejo Escolar de Bahia Blanca",
+            descripción: "Se creó un grupo de estudiantes para diseñar una nueva base de datos para el Concejo Escolar con el fin de tener mejor control sobre los mantenimientos a realizar en los edificios educativos"
+        },
+        {      
+            categoria: "PROGRAMACIÓN - ATENCIÓN AL CLIENTE",
+            fecha: "dic 2022 / mar 2023 -  dic 2023 / feb 2024 ",
+            titulo: "Recepcionista",
+            descripción: "Controlé el ingreso al camping Bosque Encantado en Pehuen có. Fui encargada de los cobros y propuse e implementé un software de control para facilitar la contabilidad del negocio guardando los ingresos en una base de datos."
+        },
+        {      
+            categoria: "CADETERÍA",
+            fecha: "ago 2023 - actualidad",
+            titulo: "Rider Pedido Ya",
+            descripción: "Hago cadetería en Bahía Blanca en bicicleta, por hobby para hacer una actividad física y, de paso, para generar ingresos extra."
+        },
+        {      
+            categoria: "COCINA",
+            fecha: "dic 2019",
+            titulo: "Ayudante de cocina, moza y bar-tender",
+            descripción: "Trabajé en temporada en el parador Los Angelitos en Sierra de la Ventana, ocupando varios puestos con mi familia."
+        },
+        {      
+            categoria: "LIMPIEZA",
+            fecha: "ene 2016",
+            titulo: "Auxiliar de maestranza",
+            descripción: "Limpieza general de baños en el Bahía Blanca Plaza Shopping. Trabajo en grupos y limpieza de patios de comidas"
+        },
+    ]
+
+
+    const ExpModule = (props) => {
+        const d = props.d;
+        return ( 
+            <div className="py-8 flex flex-wrap md:flex-nowrap">
+                <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col justify-center items-center text-center">
+                    <span className="w-[80%] pb-2 font-semibold title-font text-contrast">{d.categoria}</span>
+                    <time className="w-[80%] mt-1 text-contrast/70 text-sm">{d.fecha}</time>
+                </div>
+                <div className="md:flex-grow"> 
+                    <h2 className="text-2xl font-medium text-primary title-font mb-2">{d.titulo}</h2>
+                    <p className="leading-relaxed min-w-screen md:max-w-[80%]">{d.descripción}</p>
+                </div>
+            </div>
+         );
+    }
+
+
+
     return (  
         <>
         <div id="experience-section" className="pt-24 bg-bgColor">
@@ -12,37 +72,9 @@ const Experience = () => {
                 />
                 <div className="relative container px-5 py-24 mx-auto">
                     <div className="-my-8 divide-y-2 divide-primary">
-                        <div className="py-8 flex flex-wrap md:flex-nowrap">
-                            <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col text-center">
-                                <span className="font-semibold title-font text-contrast">CATEGORY</span>
-                                <time className="mt-1 text-contrast/70 text-sm">12 Jun 2019</time>
-                            </div>
-                            <div className="md:flex-grow">
-                                <h2 className="text-2xl font-medium text-primary title-font mb-2">Bitters hashtag waistcoat fashion axe chia unicorn</h2>
-                                <p className="leading-relaxed min-w-screen md:max-w-[80%]">Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.</p>
-                            </div>
-                        </div>
-                        <div className="py-8 flex flex-wrap md:flex-nowrap">
-                            <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col text-center">
-                                <span className="font-semibold title-font text-contrast">CATEGORY</span>
-                                <time className="mt-1 text-contrast/70 text-sm">12 Jun 2019</time>
-                            </div>
-                            <div className="md:flex-grow">
-                                <h2 className="text-2xl font-medium text-primary title-font mb-2">Bitters hashtag waistcoat fashion axe chia unicorn</h2>
-                                <p className="leading-relaxed min-w-screen md:max-w-[80%]">Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.</p>
-                            </div>
-                            
-                        </div>
-                        <div className="py-8 flex flex-wrap md:flex-nowrap">
-                            <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col text-center">
-                                <span className="font-semibold title-font text-contrast">CATEGORY</span>
-                                <time className="mt-1 text-contrast/70 text-sm">12 Jun 2019</time>
-                            </div>
-                            <div className="md:flex-grow">
-                                <h2 className="text-2xl font-medium text-primary title-font mb-2">Bitters hashtag waistcoat fashion axe chia unicorn</h2>
-                                <p className="leading-relaxed min-w-screen md:max-w-[80%]">Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.</p>
-                            </div>                  
-                        </div>
+                    {data.map((item, index) => (
+                        <ExpModule key={index} d={item} />
+                    ))}
                     </div>
                 </div>
             </section>
