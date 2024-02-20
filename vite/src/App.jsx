@@ -5,6 +5,7 @@ import Experience from "./components/Experience"
 import Proyects from "./components/Proyects"
 import Studies from "./components/Studies"
 import Contact from "./components/Contact"
+import Footer from "./components/Footer"
 
 
 
@@ -24,7 +25,7 @@ function App() {
         </main>
         
         <footer>
-
+          <Footer/>
         </footer>
       </div>
   )
