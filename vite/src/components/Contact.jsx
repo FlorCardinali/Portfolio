@@ -27,23 +27,23 @@ const Contact = () => {
 
     return ( 
         <>
-            <section id="contact-section" className="w-screen bg-contrast flex justify-center items-center pt-32">
+            <section id="contact-section" className="w-screen bg-contrast flex justify-center items-center ">
                     
 
-                <div className="bg-bgColor rounded-3xl ">
+                <div className="bg-bgColor rounded-3xl -translate-y-20 md:-translate-y-0">
                     <Title
                         title="Contacto"
                         content="" 
                     />
-                    <form id="form-contact" className="flex flex-col items-end w-[80vw] lg:w-[40vw] justify-stretch px-12 pb-5 text-contrast space-y-10" action="" onSubmit={handleSubmit}>
+                    <form id="form-contact" className="flex flex-col items-end w-[90vw] lg:w-[40vw] justify-stretch px-5 md:px-12 pb-5 text-contrast space-y-10" action="" onSubmit={handleSubmit}>
 
                         <div className="w-full space-y-5 ">
                             <label className="flex flex-col gap-2 text-[#97b95e] font-bold " htmlFor="name-in">Nombre y Apellido:
-                            <input form="form-contact" className=" border-2 border-gray-400 rounded-lg px-4 py-1 text-bgColor font-semibold" id="name-in" type="text" name="name" value={name} onChange={(e) => setName(e.target.value)} placeholder="Ingrese su nombre..." /></label>
+                            <input form="form-contact" className=" border-2 border-gray-400 rounded-lg px-4 py-1 text-bgColor font-semibold" id="name-in" type="text" name="name" value={name} onChange={(e) => setName(e.target.value)} placeholder="Ingrese su nombre..." required/></label>
 
 
                             <label className="flex flex-col gap-2 text-[#97b95e] font-bold" htmlFor="cel-in">Telefono:
-                            <input form="form-contact" className="border-2 border-gray-400 rounded-lg px-4 py-1 text-bgColor font-semibold" id="cel-in" type="tel"  placeholder="Ingrese su numero de telefono..." name="phone" value={phone} onChange={(e) => setPhone(e.target.value)}/></label>
+                            <input form="form-contact" className="border-2 border-gray-400 rounded-lg px-4 py-1 text-bgColor font-semibold" id="cel-in" type="tel"  placeholder="Ingrese el numero de telefono al que quisiera ser contactado..." name="phone" value={phone} onChange={(e) => setPhone(e.target.value)}/></label>
 
                             <label className="flex flex-col gap-2 text-[#97b95e] font-bold" htmlFor="mail-in">Mail:
                             <input form="form-contact" className="border-2 border-gray-400 rounded-lg px-4 py-1 text-bgColor font-semibold "  id="mail-in" type="email" name="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="Example_123@example.com" /></label>
