@@ -35,7 +35,7 @@ const Contact = () => {
                         title="Contacto"
                         content="" 
                     />
-                    <form id="form-contact" className="flex flex-col items-end w-[90vw] lg:w-[40vw] justify-stretch px-5 md:px-12 pb-5 text-contrast space-y-10" action="" onSubmit={handleSubmit}>
+                    <form id="form-contact" className="flex flex-col items-end w-[90vw] lg:w-[60vw] justify-stretch max-w-[700px] px-5 md:px-12 pb-5 text-contrast space-y-10" action="" onSubmit={handleSubmit}>
 
                         <div className="w-full space-y-5 ">
                             <label className="flex flex-col gap-2 text-[#97b95e] font-bold " htmlFor="name-in">Nombre y Apellido:
