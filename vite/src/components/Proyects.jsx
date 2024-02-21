@@ -43,7 +43,7 @@ const Proyects = () => {
                         <CardProyect 
                             title="Bay of Cthulhu"
                             content="Juego desarrollado en coltexto de una Game Jam de 3 días con un grupo conformado por dos desarrolladores, dos ilustradores y un sonidista."
-                            img="/proyecto1.png"
+                            img="/proyecto1.webp"
                             link="https://florenciacardinali.itch.io/bay-of-cthulhu" 
                         />
 
@@ -51,20 +51,20 @@ const Proyects = () => {
                          <CardProyect 
                             title="Dashboard Simple"
                             content="Un dashboard creado con css y js vanilla como proyecto responsive de la universidad junto a un compañero de la cursada. Carece de funcionalidad real ya que el objetivo era lograr una estructura aplicando los conocimientos de Grid y Flex-box."
-                            img="/proyecto2.png"
+                            img="/proyecto2.webp"
                             link="https://simple-dashboard-cardinali-suarez.netlify.app/" 
                         />
                         <CardProyect 
                             title="Carrera de caballos"
-                            content="Primer juego en consola como proyecto final de Laboratorio de Computación I, trabajado en Python en grupos de a dos. El juego consiste en recrear el viejo juego de cartas del mismo nombre. "
-                            img="/proyecto3.png"
+                            content="Primer juego en consola como proyecto final de Laboratorio de Computación I, trabajado en Python con arreglos, diccionarios y demás estructuras en grupos de a dos. El juego consiste en recrear el viejo juego de cartas del mismo nombre. "
+                            img="/proyecto3.webp"
                             link="https://github.com/FlorCardinali/proyecto-carrera-de-caballos/tree/master" 
                         />
 
                         <CardProyect 
                             title="To-Do App"
                             content="To do App de prueba para el curso de React, por temas de tiempo quedo presentada, pero proximamente tendra mas funcionalidades."
-                            img="/proyecto4.png"
+                            img="/proyecto4.webp"
                             link="https://github.com/FlorCardinali/to-do-app?tab=readme-ov-file" 
                         />
 
