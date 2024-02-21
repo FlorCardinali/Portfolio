@@ -9,19 +9,19 @@ const Experience = () => {
             categoria: "PROGRAMACIÓN",
             fecha: "oct 2023 - feb 2024",
             titulo: "Tutora del Curso: Introducción a React Js",
-            descripción: "Brindé apoyo y mentoria a los alumnos del curso de React Js con temas de programación y posteriormente con el uso de la libreria."
+            descripción: "Brindé apoyo y mentoría a los alumnos del curso de React Js con temas de programación y posteriormente con el uso de la librería."
         },
         {      
             categoria: "PROGRAMACIÓN",
             fecha: "jun 2023 - actualidad",
-            titulo: "Pasante para el Concejo Escolar de Bahia Blanca",
-            descripción: "Se creó un grupo de estudiantes para diseñar una nueva base de datos para el Concejo Escolar con el fin de tener mejor control sobre los mantenimientos a realizar en los edificios educativos"
+            titulo: "Pasante para el Concejo Escolar de Bahía Blanca",
+            descripción: "Se creó un grupo de estudiantes para diseñar una nueva base de datos para el Concejo Escolar con el fín de tener mejor control sobre los mantenimientos a realizar en los edificios educativos"
         },
         {      
             categoria: "PROGRAMACIÓN - ATENCIÓN AL CLIENTE",
             fecha: "dic 2022 / mar 2023 -  dic 2023 / feb 2024 ",
             titulo: "Recepcionista",
-            descripción: "Controlé el ingreso al camping Bosque Encantado en Pehuen có. Fui encargada de los cobros y propuse e implementé un software de control para facilitar la contabilidad del negocio guardando los ingresos en una base de datos."
+            descripción: "Controlé el ingreso al Camping Bosque Encantado en Pehuen có. Fui encargada de los cobros y propuse e implementé un software de control para facilitar la contabilidad del negocio guardando los ingresos en una base de datos."
         },
         {      
             categoria: "CADETERÍA",
