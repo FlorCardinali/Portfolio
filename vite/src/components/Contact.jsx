@@ -42,14 +42,14 @@ const Contact = () => {
                             <input form="form-contact" className=" border-2 border-gray-400 rounded-lg px-4 py-1 text-bgColor font-semibold" id="name-in" type="text" name="name" value={name} onChange={(e) => setName(e.target.value)} placeholder="Ingrese su nombre..." required/></label>
 
 
-                            <label className="flex flex-col gap-2 text-[#97b95e] font-bold" htmlFor="cel-in">Telefono:
-                            <input form="form-contact" className="border-2 border-gray-400 rounded-lg px-4 py-1 text-bgColor font-semibold" id="cel-in" type="tel"  placeholder="Ingrese el numero de telefono al que quisiera ser contactado..." name="phone" value={phone} onChange={(e) => setPhone(e.target.value)}/></label>
+                            <label className="flex flex-col gap-2 text-[#97b95e] font-bold" htmlFor="cel-in">Teléfono:
+                            <input form="form-contact" className="border-2 border-gray-400 rounded-lg px-4 py-1 text-bgColor font-semibold" id="cel-in" type="tel"  placeholder="Ingrese el número de teléfono al que quisiera ser contactado..." name="phone" value={phone} onChange={(e) => setPhone(e.target.value)}/></label>
 
                             <label className="flex flex-col gap-2 text-[#97b95e] font-bold" htmlFor="mail-in">Mail:
                             <input form="form-contact" className="border-2 border-gray-400 rounded-lg px-4 py-1 text-bgColor font-semibold "  id="mail-in" type="email" name="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="Example_123@example.com" /></label>
 
                             <label className="flex flex-col gap-2 text-[#97b95e] font-bold" htmlFor="nombre-in">Mensaje:
-                            <textarea form="form-contact" className="border-2 border-gray-400 rounded-lg p-4 text-bgColor font-semibold" rows="5" id="nombre-in" type="" name="notes" value={notes} onChange={(e) => setNotes(e.target.value)} placeholder="Ingrese cualquier duda, consulta o consejo ..." /></label>
+                            <textarea form="form-contact" className="border-2 border-gray-400 rounded-lg p-4 text-bgColor font-semibold" rows="5" id="nombre-in" type="" name="notes" value={notes} onChange={(e) => setNotes(e.target.value)} placeholder="Ingrese cualquier duda, consulta o recomendación ..." /></label>
                         </div>
                        
                         <button className="w-30 px-6 py-3 text-xl flex items-center gap-2 font-medium text-center text-gray-100 bg-green/70 rounded-lg hover:bg-green hover:text-white"
