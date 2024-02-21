@@ -30,7 +30,7 @@ const Contact = () => {
             <section id="contact-section" className="w-screen bg-contrast flex justify-center items-center ">
                     
 
-                <div className="bg-bgColor rounded-3xl  ">
+                <div className="bg-bgColor rounded-3xl -translate-y-20 md:translate-y-10">
                     <Title
                         title="Contacto"
                         content="" 
