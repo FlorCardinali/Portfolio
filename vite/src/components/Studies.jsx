@@ -59,7 +59,7 @@ const Studies = () => {
                             link=""
                             img="/utn.webp"/>
                         <ItemStudy 
-                            title="#SeProgramar"
+                            title="#SéProgramar"
                             subtitle= "Argentina Programa"
                             contenido="Curso de programación donde se abordó Ruby, Javascript y los conceptos de algoritmos y programación orientada a objetos." 
                             link="https://drive.google.com/file/d/1qvBY9fQlRcn7AXxFwSt2mOtdR7gFDhiK/view?usp=sharing "
