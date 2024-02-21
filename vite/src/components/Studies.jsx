@@ -53,7 +53,7 @@ const Studies = () => {
                     <div className="flex flex-col  flex-wrap  lg:text-left w-fll h-full">
                         <ItemStudy 
                             title="Tecnicatura Universitaria en Programacion" 
-                            subtitle= "Universidad Tecnologica Naciona - Facultad FRBB"
+                            subtitle= "Universidad Tecnologica Nacional - Facultad FRBB"
                             contenido="La carrera Tecnicatura Universitaria en Programación fue aprobada por la Ordenanza N° 987. Tiene una duración de DOS (2) años de clases teóricas y prácticas, incluyendo 60 hs. de Práctica Supervisada con un total de MIL NOVECIENTOS OCHENTA HORAS RELOJ (1.980 hs.reloj).
                             La carrera se denomina Tecnicatura Universitaria en Programación y otorga el título de Técnico/a Universitario en Programación." 
                             link=""
@@ -61,19 +61,19 @@ const Studies = () => {
                         <ItemStudy 
                             title="#SeProgramar"
                             subtitle= "Argentina Programa"
-                            contenido="Curso de programacion donde se abordó Ruby, Javascript y los conceptos de algoritmos y programacion orientada a objetos." 
+                            contenido="Curso de programación donde se abordó Ruby, Javascript y los conceptos de algoritmos y programación orientada a objetos." 
                             link="https://drive.google.com/file/d/1qvBY9fQlRcn7AXxFwSt2mOtdR7gFDhiK/view?usp=sharing "
                             img="/argprog.webp"/>
                         <ItemStudy 
-                            title="Introduccion a la Programacion"
+                            title="Introducción a la Programación"
                             subtitle = "Fundaula Accenture" 
                             contenido="Curso de bases de la programación dictado por Accenture, se explican algoritmos, funciones y programación estructural." 
                             link="https://drive.google.com/file/d/12ejhRwKdlpZrE8qO0IIK5Xcj93c8idwN/view?usp=sharing"
                             img="/acce.webp"/>
                         <ItemStudy 
-                            title="Reparacion de PC y redes" 
-                            subtitle="Escuela Argentina de Idiomas y Tecnologia"
-                            contenido="Armado y reparacion de computadoras de escritorio de diferentes formatos, intalación de sistemas y mantenimiento. Creacion de vpn y confeccion de redes, cableado y eficiencia de la distribución del mismo." 
+                            title="Reparación de PC y redes" 
+                            subtitle="Escuela Argentina de Idiomas y Tecnología"
+                            contenido="Armado y reparación de computadoras de escritorio de diferentes formatos, intalación de sistemas y mantenimiento. Creación de vpn y confección de redes, cableado y eficiencia de la distribución del mismo." 
                             link=""
                             img="/eait.webp"/>
                         
@@ -82,7 +82,7 @@ const Studies = () => {
             </section>
             <section className="w-screen py-32 bg-bgColor text-contrast ">
                 <Title
-                    title="Tecnologias Aprendidas"
+                    title="Tecnologías Aprendidas"
                     content=""
                 />
                 <div className="pt-16 mx-16 flex flex-wrap gap-10 items-center justify-center">
@@ -99,7 +99,7 @@ const Studies = () => {
                         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 48 48">
                 <path fill="#ffd600" d="M6,42V6h36v36H6z"></path><path fill="#000001" d="M29.538 32.947c.692 1.124 1.444 2.201 3.037 2.201 1.338 0 2.04-.665 2.04-1.585 0-1.101-.726-1.492-2.198-2.133l-.807-.344c-2.329-.988-3.878-2.226-3.878-4.841 0-2.41 1.845-4.244 4.728-4.244 2.053 0 3.528.711 4.592 2.573l-2.514 1.607c-.553-.988-1.151-1.377-2.078-1.377-.946 0-1.545.597-1.545 1.377 0 .964.6 1.354 1.985 1.951l.807.344C36.452 29.645 38 30.839 38 33.523 38 36.415 35.716 38 32.65 38c-2.999 0-4.702-1.505-5.65-3.368L29.538 32.947zM17.952 33.029c.506.906 1.275 1.603 2.381 1.603 1.058 0 1.667-.418 1.667-2.043V22h3.333v11.101c0 3.367-1.953 4.899-4.805 4.899-2.577 0-4.437-1.746-5.195-3.368L17.952 33.029z"></path>
                         </svg>
-                        Javascript
+                        JavaScript
                     </div>
 
                     <div className="flex flex-col items-center gap-4 hover:scale-125 transition-all duration-300">
@@ -144,7 +144,7 @@ const Studies = () => {
                         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 48 48">
                 <path fill="#00acc1" d="M24,9.604c-6.4,0-10.4,3.199-12,9.597c2.4-3.199,5.2-4.398,8.4-3.599 c1.826,0.456,3.131,1.781,4.576,3.247C27.328,21.236,30.051,24,36,24c6.4,0,10.4-3.199,12-9.598c-2.4,3.199-5.2,4.399-8.4,3.6 c-1.825-0.456-3.13-1.781-4.575-3.247C32.672,12.367,29.948,9.604,24,9.604L24,9.604z M12,24c-6.4,0-10.4,3.199-12,9.598 c2.4-3.199,5.2-4.399,8.4-3.599c1.825,0.457,3.13,1.781,4.575,3.246c2.353,2.388,5.077,5.152,11.025,5.152 c6.4,0,10.4-3.199,12-9.598c-2.4,3.199-5.2,4.399-8.4,3.599c-1.826-0.456-3.131-1.781-4.576-3.246C20.672,26.764,17.949,24,12,24 L12,24z"></path>
                         </svg>  
-                        TaildWind CSS
+                        TailWind CSS
                     </div>
                     <div className="flex flex-col items-center gap-4 hover:scale-125 transition-all duration-300">
                         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 40 40">
