@@ -21,7 +21,7 @@ const Footer = () => {
             </section>
             <div className="w-full flex justify-center ">
                 <p class="text-gray-500 py-8 text-sm sm:text-left">
-                    © 2024 Florencia Paula Carddinali
+                    © 2024 Florencia Paula Cardinali
                 </p>
             </div>
         </footer>
