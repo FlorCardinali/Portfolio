@@ -52,7 +52,7 @@ const Studies = () => {
                     {/* items */}
                     <div className="flex flex-col  flex-wrap  lg:text-left w-fll h-full">
                         <ItemStudy 
-                            title="Tecnicatura Universitaria en Programacion" 
+                            title="Tecnicatura Universitaria en Programación" 
                             subtitle= "Universidad Tecnologica Nacional - Facultad FRBB"
                             contenido="La carrera Tecnicatura Universitaria en Programación fue aprobada por la Ordenanza N° 987. Tiene una duración de DOS (2) años de clases teóricas y prácticas, incluyendo 60 hs. de Práctica Supervisada con un total de MIL NOVECIENTOS OCHENTA HORAS RELOJ (1.980 hs.reloj).
                             La carrera se denomina Tecnicatura Universitaria en Programación y otorga el título de Técnico/a Universitario en Programación." 
