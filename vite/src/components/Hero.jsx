@@ -1,8 +1,8 @@
 const Hero = () => {
-const SocailMediaIcons = ({ruta,alt}) => {
+const SocailMediaIcons = ({ruta,alt,link}) => {
     return (
     <>
-        <a href="#" >
+        <a href={link} target="_blank">
             <img className="w-10 hover:drop-shadow-[0px_0px_10px_rgba(255,255,210,1)] hover:scale-125 cursor-pointer" src={ruta} alt={alt}></img>
         </a>
     </>
@@ -19,9 +19,9 @@ const SocailMediaIcons = ({ruta,alt}) => {
                         <p className="md:text-2xl text-xl font-extrabold text-contrast">Te invito a conocerme!</p>                        
                     </div>
                    <div className="p-5 flex flex-row gap-5 h-[100px] justify-center items-center">
-                        <SocailMediaIcons ruta="/github.png" alt="GitHub" />
-                        <SocailMediaIcons ruta="/linkedin.png" alt="LinkedIn"/>
-                        <SocailMediaIcons ruta="/instagram.png" alt="Instagram"/>
+                        <SocailMediaIcons ruta="/github.png" alt="GitHub"  link="https://github.com/FlorCardinali"/>
+                        <SocailMediaIcons ruta="/linkedin.png" alt="LinkedIn" link="https://www.linkedin.com/in/florencia-cardinali/"/>
+                        <SocailMediaIcons ruta="/instagram.png" alt="Instagram" link="https://www.instagram.com/flor_cardinali1/"/>
                     </div>
                 </div>
                 <div className="w-screen ">
