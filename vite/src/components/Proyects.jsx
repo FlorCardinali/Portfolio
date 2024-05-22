@@ -7,7 +7,7 @@ const Proyects = () => {
             <>
                 <a href={link} target="_blank" className="  lg:hover:scale-105 cursor-pointer transition-all duration-300 max-w-[22rem] h-[550px] flex flex-col items-center justify-between bg-bgColor border-gray-200 rounded-lg pb-5">
                     
-                    <img className="rounded-t-lg min-w-[100%] min-h-[50%] object-cover" src={img} alt="" />
+                    <img className="rounded-t-lg min-w-[100%] min-h-[50%] object-cover object-left-top" src={img} alt="" />
                     
                     <div className="p-5 max-h-[40%] overflow-y-auto">
                         
