@@ -43,7 +43,7 @@ const Proyects = () => {
                         <CardProyect 
                             title="Departamentos Pacific Rentail"
                             content="Landing page para una empresa familiar de alquiler de departamentos por dia. Se me solicito un diseño hogareño simple y que refleje poca ostentisidad, con colores marrones y ocre."
-                            img="/deptos.wp2"
+                            img="/depto.webp"
                             link="https://landing-pacifico-rentail.vercel.app/" 
                         />
 
