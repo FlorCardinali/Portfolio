@@ -41,6 +41,13 @@ const Proyects = () => {
                     <article className="flex-wrap  md:flex-row flex-col justify-center  items-center flex pb-14 lg:p-0 gap-4 ">
 
                         <CardProyect 
+                            title="Departamentos Pacific Rentail"
+                            content="Landing page para una empresa familiar de alquiler de departamentos por dia. Se me solicito un diseño hogareño simple y que refleje poca ostentisidad, con colores marrones y ocre."
+                            img="/deptos.wp2"
+                            link="https://landing-pacifico-rentail.vercel.app/" 
+                        />
+
+                        <CardProyect 
                             title="Bay of Cthulhu"
                             content="Juego desarrollado en contexto de una Game Jam de 3 días con un grupo conformado por dos desarrolladores, dos ilustradores y un sonidista."
                             img="/proyecto1.webp"
