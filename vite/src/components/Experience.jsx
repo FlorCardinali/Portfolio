@@ -6,6 +6,12 @@ const Experience = () => {
 
     const data = [
         {      
+            categoria: "ADMINISTRACIÓN - PROGRAMACIÓN",
+            fecha: "sep 2024 - actualidad",
+            titulo: "Administración ERP",
+            descripción: "Control del ERP 'Hermes' de dos empresas, Catus S.A y Multibahia. Mis funciones principales son el mantenimiento de precios actualizados, carga de comprobantes en el sistema, consultas a la base de datos y mantenimiento general"
+        },
+        {      
             categoria: "PROGRAMACIÓN",
             fecha: "oct 2023 - feb 2024",
             titulo: "Tutora del Curso: Introducción a React Js",
