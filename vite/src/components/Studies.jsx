@@ -94,7 +94,7 @@ const Studies = () => {
                     title="Tecnologías Aprendidas en Clases"
                     content=""
                 />
-                <div className=" py-16 flex flex-wrap gap-10 items-center justify-center mx-[12rem]">
+                <div className=" py-16 flex flex-wrap gap-10 items-center justify-center mx-[4rem] lg:mx-[12rem]">
 
                     {/* c# */}
                     <div className="flex flex-col items-center gap-4 hover:scale-125 transition-all duration-300">
@@ -193,7 +193,7 @@ const Studies = () => {
                     />
                 
                 
-                <div className="pt-16 mx-[12rem] flex flex-wrap gap-10 items-center justify-center">
+                <div className="py-28 md:py-16 lg:mx-[12rem] flex flex-wrap gap-10 items-center justify-center">
 
                      {/* React Js */}
                      <div className="flex flex-col items-center gap-4 hover:scale-125 transition-all duration-300">
