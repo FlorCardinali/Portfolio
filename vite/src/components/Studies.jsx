@@ -39,9 +39,9 @@ const Studies = () => {
   
     return ( 
         <>
-        <div id="education-section">
-        </div>
-            <section className="w-screen pt-24 bg-bgColor text-contrast ">
+            <div id="education-section">
+            </div>
+            <section className="w-scree bg-bgColor text-contrast ">
                 <Title
                     title="Estudios"
                     content=""
@@ -244,7 +244,7 @@ const Studies = () => {
                 
             </section>
 
-            <div className="bg-contrast w-screen h-[400px]">
+            <div className="bg-contrast w-screen h-[200px] md:h-[250px]">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#211e1c" fillOpacity="1" d="M0,256L48,234.7C96,213,192,171,288,165.3C384,160,480,192,576,218.7C672,245,768,267,864,234.7C960,203,1056,117,1152,85.3C1248,53,1344,75,1392,85.3L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
             </div>
         </> 
