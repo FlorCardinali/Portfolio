@@ -8,7 +8,7 @@ const Studies = () => {
         return (
         <article className="flex justify-center lg:gap-12 items-center flex-col lg:flex-row">
                 <a href={link ? link : ""} onClick={(e) => { if (!link) e.preventDefault(); }} target="_blank">
-                    <img className="lg:rounded-xl min-h-[300px] object-cover lg:max-w-[30vw] w-screen lg:m-8 hover:scale-110 transition-all duration-300" src={img}></img>   
+                    <img className="lg:rounded-xl min-h-[300px] max-h-[300px] object-cover lg:max-w-[30vw] w-screen lg:m-8 hover:scale-110 transition-all duration-300 object-[0%_45%]" src={img}></img>   
                 </a>
                 
                 
@@ -51,6 +51,13 @@ const Studies = () => {
                  
                     {/* items */}
                     <div className="flex flex-col  flex-wrap  lg:text-left w-fll h-full">
+
+                    <ItemStudy 
+                            title="Tecnicatura Universitaria en Diseño y Programación de Videojeugos" 
+                            subtitle="Universidad Provincial del Sudoeste"
+                            contenido="Carrera virtual (En progreso)" 
+                            link=""
+                            img="/upso.jpeg"/>
 
                         <ItemStudy 
                             title="Arte 3D para videojuegos" 

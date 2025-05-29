@@ -5,23 +5,18 @@ const Proyects = () => {
     const CardProyect = ({content, title,img,link}) => {
         return (
             <>
-                <a href={link} target="_blank" className="  lg:hover:scale-105 cursor-pointer transition-all duration-300 max-w-[22rem] h-[550px] flex flex-col items-center justify-between bg-bgColor border-gray-200 rounded-lg pb-5">
+                <a href={link} target="_blank" className="  lg:hover:scale-105 cursor-pointer transition-all duration-300 max-w-[22rem] h-[550px] flex flex-col items-center  bg-bgColor border-gray-200 rounded-lg pb-5">
                     
-                    <img className="rounded-t-lg min-w-[100%] min-h-[50%] object-cover object-left-top" src={img} alt="" />
+                    <img className="rounded-t-lg min-w-[100%] max-h-[300px] min-h-[300px] object-cover object-top" src={img} alt="" />
                     
-                    <div className="p-5 max-h-[40%] overflow-y-auto">
+                    <div className="p-5 max-h-[40%] flex flex-col items-start0 justify-start">
                         
                         <h5 className="mb-2 text-2xl font-bold tracking-tight text-contrast">{title}</h5>
                         
                         <p className=" mb-3 font-normal text-contrast/80">{content}</p>
                         
                     </div>
-                    <div href="#" className="inline-flex items-center m-3 px-3 py-2 text-sm font-medium text-center text-contrast bg-green/80 rounded-lg hover:bg-green hover:text-white hover:font-extrabold ">
-                            Ver más
-                            <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="#aaa333" viewBox="0 0 14 10">
-                            <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                            </svg>
-                    </div>
+                   
                 </a>
             </>
         );
@@ -39,6 +34,24 @@ const Proyects = () => {
                     />
 
                     <article className="flex-wrap  md:flex-row flex-col justify-center  items-center flex pb-14 lg:p-0 gap-4 ">
+                        <CardProyect 
+                            title="Cosmo Shoes"
+                            content="Landing page para emprendimiento de zapatillas improtadas (en contrucción)"
+                            img="/cosmoshoes.jpeg"
+                            link="" 
+                        />
+                        <CardProyect 
+                            title="Catu S.A"
+                            content="Pagina de inicio de Catus S.A. Creada para el remplazo de la anterior que presenta varios probelmas de UI/UX"
+                            img="/catus.jpeg"
+                            link="https://catus-bahia.netlify.app/" 
+                        />
+                        <CardProyect 
+                            title="Carga Mania"
+                            content="Juego creado en la Gam Jam del puerto de Bahía Blanca. Se utilizó Godot Engine como motor de videojuegos."
+                            img="/cargamania.jpeg"
+                            link="https://marymoon.itch.io/cargamania" 
+                        />
 
                         <CardProyect 
                             title="Departamentos Pacific Rentail"
