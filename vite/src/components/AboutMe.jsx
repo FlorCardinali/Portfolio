@@ -2,7 +2,7 @@ const AboutMe = () => {
     const spam_style = " font-extrabold text-green ";
     return ( 
         <>
-        <div id="about-section" className="bg-contrast pt-24">
+        <div id="about-section" className="bg-contrast pt-0 ">
              <section >
                 <div className="bg-contrast gap-12 flex lg:flex-row flex-col-reverse items-center lg:items-center justify-center h-auto p-12 ">
                     
