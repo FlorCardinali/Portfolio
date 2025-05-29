@@ -12,7 +12,7 @@ const SocailMediaIcons = ({ruta,alt,link}) => {
 ;
     return ( 
         <>
-            <div className="flex relative flex-col justify-end items-center h-[101vh] text-contrast bg-[url('/escalada.webp')] bg-left lg:bg-top bg-no-repeat bg-cover bg-fixed ">
+            <div className="flex relative flex-col justify-end items-center h-[101vh] text-contrast bg-[url('./escalada.webp')] bg-left lg:bg-top bg-no-repeat bg-cover bg-fixed ">
                 <div className="absolute translate-y-20 text-center bottom-[50vh] flex flex-col">
                     <div className="animate-fade animate-once animate-duration-[800ms] animate-ease-in animate-normal animate-fill-both">
                         <h1 className="md:text-7xl text-5xl p-2  font-black bg-clip-text text-transparent bg-gradient-to-r from-primary to-green ">Bienvenidos</h1>

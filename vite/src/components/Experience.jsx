@@ -7,8 +7,8 @@ const Experience = () => {
     const data = [
         {      
             categoria: "ADMINISTRACIÓN - PROGRAMACIÓN",
-            fecha: "sep 2024 - actualidad",
-            titulo: "Administración ERP",
+            fecha: "sep 2024 - may 2025",
+            titulo: "Administración ERP y data entry",
             descripción: "Control del ERP 'Hermes' de dos empresas, Catus S.A y Multibahia. Mis funciones principales son el mantenimiento de precios actualizados, carga de comprobantes en el sistema, consultas a la base de datos y mantenimiento general"
         },
         {      
@@ -26,26 +26,8 @@ const Experience = () => {
         {      
             categoria: "PROGRAMACIÓN - ATENCIÓN AL CLIENTE",
             fecha: "dic 2022 / mar 2023 -  dic 2023 / feb 2024 ",
-            titulo: "Recepcionista",
+            titulo: "Recepcionista y Administración",
             descripción: "Controlé el ingreso al Camping Bosque Encantado en Pehuen có. Fui encargada de los cobros y propuse e implementé un software de control para facilitar la contabilidad del negocio guardando los ingresos en una base de datos."
-        },
-        {      
-            categoria: "CADETERÍA",
-            fecha: "ago 2023 - actualidad",
-            titulo: "Rider Pedido Ya",
-            descripción: "Hago cadetería en Bahía Blanca en bicicleta, por hobby para hacer una actividad física y, de paso, para generar ingresos extra."
-        },
-        {      
-            categoria: "COCINA",
-            fecha: "dic 2019",
-            titulo: "Ayudante de cocina, moza y bar-tender",
-            descripción: "Trabajé en temporada en el parador Los Angelitos en Sierra de la Ventana, ocupando varios puestos con mi familia."
-        },
-        {      
-            categoria: "LIMPIEZA",
-            fecha: "ene 2016",
-            titulo: "Auxiliar de maestranza",
-            descripción: "Limpieza general de baños en el Bahía Blanca Plaza Shopping. Trabajo en grupos y limpieza de patios de comidas"
         },
     ]
 
@@ -70,7 +52,7 @@ const Experience = () => {
 
     return (  
         <>
-        <div id="experience-section" className="pt-24 bg-bgColor">
+        <div id="experience-section" className=" bg-bgColor">
             <section className="text-contrast bg-bgColor overflow-hidden px-10">
                 <Title
                     title="Experiencia"
