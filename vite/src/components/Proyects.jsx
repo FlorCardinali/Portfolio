@@ -32,8 +32,15 @@ const Proyects = () => {
                         title="Proyectos"
                         content="Mis Proyectos Realizados tanto en ámbito educativo como personal."
                     />
-
+                    
                     <article className="flex-wrap  md:flex-row flex-col justify-center  items-center flex pb-14 lg:p-0 gap-4 ">
+                        <CardProyect 
+                            title="Rangi"
+                            content="El juego es una novela visual con temática Mapuche, siendo una adaptación de un cuento llamado “La Búsqueda de Shushu”, contada de una forma diferente: con una protagonista más cercana al heroísmo, que es maldecida y que a raíz de eso debe sortear una serie de obstáculos para poder recuperar su verdadera apariencia
+                            "
+                            img="/logo_rangi.png"
+                            link="https://florencia-cardinali.itch.io/rangi" 
+                        />
                         <CardProyect 
                             title="Cosmo Shoes"
                             content="Landing page para emprendimiento de zapatillas improtadas (en contrucción)"

@@ -52,7 +52,8 @@ const Studies = () => {
                     {/* items */}
                     <div className="flex flex-col  flex-wrap  lg:text-left w-fll h-full">
 
-                    <ItemStudy 
+
+                        <ItemStudy 
                             title="Tecnicatura Universitaria en Diseño y Programación de Videojeugos" 
                             subtitle="Universidad Provincial del Sudoeste"
                             contenido="Carrera virtual (En progreso)" 
