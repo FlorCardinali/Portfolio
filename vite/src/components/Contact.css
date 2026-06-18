@@ -2,7 +2,7 @@
 
 
 .contact-section {
-    @apply w-screen h-full lg:h-screen bg-[url('../public/contacto.webp')] bg-cover bg-center;
+    @apply w-screen h-full lg:h-screen bg-[url('/contacto.webp')] bg-cover bg-center;
 }
 
 .contact-container {
