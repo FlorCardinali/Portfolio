@@ -11,23 +11,23 @@ import Footer from "./components/Footer"
 
 function App() {
   return (
-      <div className="container-fluid overflow-hidden ">
-        <header className="container-fluid ">
-          <NavBar/>
-          <Hero/>
-        </header>
-        <main className="">
-          <AboutMe />
-          <Experience/>
-          <Proyects/>
-          <Studies/>
-          <Contact/>
-        </main>
-        
-        <footer>
-          <Footer/>
-        </footer>
-      </div>
+    <div className="container-fluid overflow-hidden ">
+      <header className="container-fluid ">
+        <NavBar />
+        <Hero />
+      </header>
+      <main className="">
+        <AboutMe />
+        <Experience />
+        <Proyects />
+        <Studies />
+        <Contact />
+      </main>
+
+      <footer>
+        <Footer />
+      </footer>
+    </div>
   )
 }
 

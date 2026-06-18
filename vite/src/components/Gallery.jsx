@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './Gallery.css';
 
 const Gallery = () => {
 
@@ -10,19 +11,19 @@ const Gallery = () => {
 
     return ( 
         <>
-         <article className="flex flex-row justify-center  w-screen p-12">
+         <article className="gallery-container">
 
-            <div className={`${active===0 ? "w-[50%] " : "w-[10%]" } h-[80vh] min-w-[100px] bg-cover bg-[url(./img1.jpg)] transition-all duration-500 `} onClick={() => handlerActivate(0)}>
+            <div className={`gallery-item gallery-img-1 ${active === 0 ? "gallery-item-active" : "gallery-item-inactive"}`} onClick={() => handlerActivate(0)}>
                 
             </div>
-            <div className={`${active===1 ? "w-[50%] " : "w-[10%]" } h-[80vh] min-w-[100px] bg-cover bg-[url(./img2.jpg)] transition-all duration-500`} onClick={() => handlerActivate(1)}>
+            <div className={`gallery-item gallery-img-2 ${active === 1 ? "gallery-item-active" : "gallery-item-inactive"}`} onClick={() => handlerActivate(1)}>
             
             </div>
-            <div className={`${active===2 ? "w-[50%] " : "w-[10%]" } h-[80vh] min-w-[100px] bg-cover bg-[url(./img3.jpg)] transition-all duration-500`} onClick={() => handlerActivate(2)}>
+            <div className={`gallery-item gallery-img-3 ${active === 2 ? "gallery-item-active" : "gallery-item-inactive"}`} onClick={() => handlerActivate(2)}>
             </div>
-            <div className={`${active===3 ? "w-[50%] " : "w-[10%]" } h-[80vh] min-w-[100px] bg-cover bg-[url(./img1.jpg)] transition-all duration-500`} onClick={() => handlerActivate(3)} >
+            <div className={`gallery-item gallery-img-1 ${active === 3 ? "gallery-item-active" : "gallery-item-inactive"}`} onClick={() => handlerActivate(3)} >
             </div>
-            <div className={`${active===4 ? "w-[50%] " : "w-[10%]" } h-[80vh] min-w-[100px] bg-cover bg-[url(./img1.jpg)] transition-all duration-500`} onClick={() => handlerActivate(4)} >
+            <div className={`gallery-item gallery-img-1 ${active === 4 ? "gallery-item-active" : "gallery-item-inactive"}`} onClick={() => handlerActivate(4)} >
             </div>
 
         </article>

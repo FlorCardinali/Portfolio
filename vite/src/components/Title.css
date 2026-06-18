@@ -1,0 +1,13 @@
+@reference "../index.css";
+
+.title-container {
+    @apply flex flex-col px-5 text-center items-center;
+}
+
+.title-heading {
+    @apply bg-clip-text text-transparent text-5xl font-extrabold sm:text-6xl py-5 drop-shadow-lg shadow-black;
+}
+
+.title-description {
+    @apply w-full md:w-[70%] lg:w-[40%] text-center;
+}

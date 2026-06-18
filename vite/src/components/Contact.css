@@ -1,0 +1,61 @@
+@reference "../index.css";
+
+
+.contact-section {
+    @apply w-screen h-full lg:h-screen bg-[url('../public/contacto.webp')] bg-cover bg-center;
+}
+
+.contact-container {
+    @apply w-full  lg:h-screen flex flex-col-reverse lg:flex-row justify-center p-10 pb-20 lg:p-30 lg:pt-40;
+}
+.capa-negra {
+    @apply lg:h-screen bg-black/80;
+}
+
+.contact-card {
+    @apply bg-bgcolor/40 backdrop-blur-lg lg:w-2/6 rounded-xl w-full h-fit px-8 py-8 shadow-[8px_35px_35px_rgba(0,0,0,0.25)] border-2 border-gold/30;
+}
+
+.contact-form {
+    @apply flex flex-col w-full text-contrast gap-10;
+}
+
+.contact-fields-wrapper {
+    @apply w-full flex flex-col gap-5;
+}
+
+
+.contact-label {
+    @apply flex flex-col gap-2 text-gold-light/70 font-bold;
+}
+
+.contact-input {
+    @apply border-2 border-gray-600 rounded-lg px-4 py-1
+     text-contrast font-semibold bg-contrast/20 ;
+}
+
+.contact-textarea {
+    @apply border-2 border-gray-600 rounded-lg p-4 text-contrast   bg-contrast/20;
+}
+
+.contact-submit-btn {
+    @apply w-full px-6 py-2 text-xl flex items-center justify-center gap-2 font-medium text-center text-gray-100 bg-gold-light/60 rounded-md hover:bg-gold-light/40 hover:text-white;
+}
+
+.texto-content{
+    @apply flex flex-col items-center w-full h-full lg:w-3/6 lg:h-4/6 pt-10;
+}
+.thanks-text{
+    @apply text-xl font-medium text-contrast leading-relaxed 
+    w-full lg:w-1/2 text-center;
+}
+.hero-social-list {
+    @apply p-5 flex flex-row gap-5 h-[100px] justify-center items-center;
+}
+.contact-title{
+    @apply text-transparent bg-clip-text bg-linear-to-r from-gold to-gold-light text-3xl font-bold mb-4;
+}
+
+
+
+

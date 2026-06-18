@@ -1,0 +1,33 @@
+@reference "../index.css";
+
+.about-section {
+    @apply bg-bgcolor md:h-screen pt-20 pb-10  md:p-0 flex flex-col justify-center items-center;
+}
+
+
+
+.about-container {
+    @apply bg-transparent gap-10 lg:gap-30 flex md:flex-row flex-col-reverse justify-center p-12;
+}
+
+.about-content {
+    @apply text-center md:text-justify text-crema font-bold w-full lg:w-[30%];
+}
+
+.about-title {
+    @apply font-extrabold text-4xl py-2;
+}
+
+.about-subtitle {
+    @apply text-gold-dark font-bold text-xl;
+}
+
+.about-highlight {
+    @apply font-extrabold text-gold-light/80;
+}
+
+.about-image {
+    @apply rounded-3xl min-w-[300px] min-h-[400px] max-h-[500px] bg-cover bg-center bg-no-repeat bg-[url('/foto-about.webp')] shadow-xl;
+}
+
+

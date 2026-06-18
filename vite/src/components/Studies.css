@@ -1,0 +1,48 @@
+@reference "../index.css";
+
+.study-item {
+    @apply flex flex-col lg:flex-row h-full lg:h-[300px];
+}
+
+.study-image {
+    @apply lg:rounded-xl lg:min-h-full max-h-[250px]  object-cover object-top md:object-center lg:max-w-[30vw] w-screen ;
+}
+
+.study-details {
+    @apply  w-full py-8  flex flex-col justify-between items-start lg:pl-15 h-[350px] md:h-[300px] lg:h-full;
+}
+
+.study-text-group {
+    @apply text-left flex flex-col;
+}
+
+.study-title {
+    @apply text-gold-dark text-3xl font-bold pb-3 w-[80%];
+}
+
+.study-subtitle {
+    @apply text-gold text-xl font-extrabold;
+}
+
+.study-description {
+    @apply text-left lg:max-w-[50vw];
+}
+
+.study-certificate-btn {
+    @apply flex-row flex items-center rounded-md py-2 px-4 text-contrast bg-gold hover:bg-gold-dark ;
+}
+
+.studies-section {
+    @apply w-screen flex flex-col items-center justify-center bg-crema  gap-15 lg:pb-20 ;
+}
+
+.studies-container {
+    @apply text-black font-bold py-12 flex flex-wrap justify-center lg:w-4/6 w-full lg:px-0 md:px-15 px-10;
+}
+
+.studies-list {
+    @apply flex flex-col gap-10 flex-wrap text-left w-full h-full;
+}
+.gap-nav-studies{
+    @apply pt-10;
+}

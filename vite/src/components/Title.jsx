@@ -1,16 +1,32 @@
-const Title = ({title,content}) => {
-    return ( 
-        <>
-            <div className=" flex flex-col px-5 text-center items-center ">
-                <h5 className="bg-clip-text text-transparent bg-gradient-to-r from-primary to-green text-5xl font-extrabold sm:text-6xl py-5">
-                    {title}
-                </h5>
-                <p className="w-[100%] md:w-[70%] lg:w-[40%] text-center">
-                    {content}
-                </p>
-            </div>
-        </>
-     );
+import './Title.css';
+
+const Title = ({ title, content, colorFrom = 'gold', colorTo = 'gold-light' }) => {
+    const resolveColor = (color) => {
+        if (!color) return '';
+        if (color.startsWith('var(') || color.startsWith('#') || color.startsWith('rgb') || color.startsWith('hsl')) {
+            return color;
+        }
+        return `var(--color-${color})`;
+    };
+
+    const gradientFrom = resolveColor(colorFrom);
+    const gradientTo = resolveColor(colorTo);
+
+    return (
+        <div className="title-container">
+            <h2 
+                className="title-heading"
+                style={{
+                    backgroundImage: `linear-gradient(to right, ${gradientFrom}, ${gradientTo})`
+                }}
+            >
+                {title}
+            </h2>
+            <p className="title-description">
+                {content}
+            </p>
+        </div>
+    );
 }
- 
+
 export default Title;

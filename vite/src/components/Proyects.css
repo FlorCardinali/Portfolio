@@ -1,0 +1,93 @@
+@reference "../index.css";
+
+.projects-section {
+    @apply bg-bgcolor w-screen flex flex-col items-center overflow-x-hidden gap-10 pb-40;
+}
+.projects-content-front{
+    @apply py-5;
+}
+.projects-content-gamedev{
+    @apply py-5;
+}
+.gap-nav-proyects{
+    @apply w-screen h-[45px];
+}
+.frontend-title{
+    @apply  font-medium tracking-widest text-3xl text-contrast w-full ;
+}
+.gamedev-title{
+    @apply  font-medium tracking-widest text-3xl text-contrast w-full;
+}
+.punto-titulos{
+    @apply text-gold-light/70;
+}
+
+.projects-container {
+    @apply w-full max-w-7xl px-10 md:px-16 mx-auto flex flex-col items-center gap-4;
+}
+
+.projects-grid {
+    @apply grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 w-full py-6;
+}
+
+.project-card {
+    @apply cursor-pointer h-[280px] w-full block
+           relative overflow-hidden bg-bgcolor/70 border border-contrast/5 rounded-xl shrink-0 
+           shadow-md;
+    transition: box-shadow 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    -webkit-user-drag: none;
+    user-select: none;
+}
+
+.project-card.hovered {
+    @apply shadow-xl;
+}
+
+.project-card-image {
+    @apply w-full h-full object-cover transition-transform duration-500 rounded-xl;
+    -webkit-user-drag: none;
+    user-select: none;
+}
+
+.project-card.hovered .project-card-image {
+    @apply scale-105;
+}
+
+.project-card-body {
+    @apply absolute p-6 flex flex-col justify-center items-start bg-bgcolor/90
+           transition-opacity duration-300 opacity-0 rounded-xl border border-contrast/10;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.project-card.hovered .project-card-body {
+    @apply opacity-100;
+}
+
+.project-card-title {
+    @apply mb-3 text-xl font-bold tracking-tight text-contrast line-clamp-2 shrink-0;
+}
+
+.project-card-desc {
+    @apply text-sm font-normal text-contrast/85 line-clamp-8 leading-relaxed;
+}
+
+.project-card-techs {
+    @apply flex flex-wrap gap-2 mt-4 items-center w-full;
+}
+
+.project-card-tech-icon {
+    @apply flex items-center justify-center p-1 rounded-md bg-contrast/5 border border-contrast/10 hover:bg-contrast/10 hover:scale-115 transition-all duration-200;
+    pointer-events: auto;
+}
+
+.project-card-tech-icon svg {
+    width: 24px !important;
+    height: 24px !important;
+}
+
+.projects-footer-divider {
+    @apply bg-bgcolor w-screen h-[250px];
+}

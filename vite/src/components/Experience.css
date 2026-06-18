@@ -1,0 +1,50 @@
+@reference "../index.css";
+.experience-nav {
+    @apply pt-20 md:pt-20;
+}
+
+.experience-section {
+    @apply text-black font-bold bg-crema overflow-hidden  pb-10 md:px-0 px-10
+}
+
+.experience-container {
+    @apply   md:py-20 lg:max-w-[60vw] mx-auto;
+}
+
+.experience-list {
+    @apply  divide-y-2 divide-gold;
+}
+
+.exp-item {
+    @apply py-7 md:py-10 w-fit flex justify-center flex-wrap md:flex-nowrap;
+}
+
+.exp-item-meta {
+    @apply md:w-64 w-full md:mb-0 mb-6 shrink-0 flex flex-col justify-center items-center text-center;
+}
+
+.exp-item-category {
+    @apply md:w-[80%] w-[95%] pb-2 font-extrabold text-gold md:text-left text-center;
+}
+
+.exp-item-date {
+    @apply md:w-[80%] mt-1 text-sm md:text-left text-center;
+}
+
+.exp-item-body {
+    @apply md:grow text-center md:text-left ;
+}
+
+.exp-item-title {
+    @apply text-3xl font-bold text-bgcolor mb-2;
+}
+
+.exp-item-desc {
+    @apply leading-relaxed md:max-w-[80%] text-[18px] font-medium;
+}
+
+.experience-divider {
+    @apply bg-bronze h-[100px];
+}
+
+

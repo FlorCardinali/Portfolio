@@ -1,11 +1,30 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+@plugin "tailwindcss-animated";
+@theme {
+  --color-gold: rgb(144, 132, 85);
+  --color-bronze: rgb(164, 108, 60);
+  --color-bgcolor: rgb(24, 24, 24);
+  --color-contrast: rgb(206, 203, 202);
+  --color-gold-light: rgb(216, 205, 142);
+  --color-gold-dark: rgb(75, 58, 15);
+  --color-crema: rgb(145, 142, 133);
+}
 
-*   {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+:root {
+  --color-gold: rgb(144, 132, 85);
+  --color-bronze: rgb(164, 108, 60);
+  --color-bgcolor: rgb(24, 24, 24);
+  --color-contrast: rgb(206, 203, 202);
+  --color-gold-light: rgb(216, 205, 142);
+  --color-gold-dark: rgb(75, 58, 15);
+  --color-crema: rgb(199, 193, 174);
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 /* Ocultar completamente la barra de desplazamiento */
 ::-webkit-scrollbar {
