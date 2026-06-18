@@ -2,14 +2,14 @@
 
 
 .contact-section {
-    @apply w-screen h-full lg:h-screen bg-[url('/contacto.webp')] bg-cover bg-center;
+    @apply w-screen h-full lg:min-h-screen bg-[url('/contacto.webp')] bg-cover bg-center;
 }
 
 .contact-container {
-    @apply w-full  lg:h-screen flex flex-col-reverse lg:flex-row justify-center p-10 pb-20 lg:p-30 lg:pt-40;
+    @apply w-full lg:min-h-screen flex flex-col-reverse lg:flex-row justify-center items-center p-10 pb-20 lg:p-30 lg:pt-40;
 }
 .capa-negra {
-    @apply lg:h-screen bg-black/80;
+    @apply w-full lg:min-h-screen bg-black/80 flex flex-col justify-center;
 }
 
 .contact-card {
@@ -43,7 +43,7 @@
 }
 
 .texto-content{
-    @apply flex flex-col items-center w-full h-full lg:w-3/6 lg:h-4/6 pt-10;
+    @apply flex flex-col items-center justify-center w-full h-fit lg:w-3/6 lg:h-auto pt-10 lg:pt-0;
 }
 .thanks-text{
     @apply text-xl font-medium text-contrast leading-relaxed 

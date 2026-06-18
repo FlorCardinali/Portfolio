@@ -1,7 +1,7 @@
 @reference "../index.css";
 
 .about-section {
-    @apply bg-bgcolor md:h-screen pt-20 pb-10  md:p-0 flex flex-col justify-center items-center;
+    @apply bg-bgcolor md:min-h-screen pt-20 pb-10  md:p-0 flex flex-col justify-center items-center;
 }
 
 
