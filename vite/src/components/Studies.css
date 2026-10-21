@@ -1,7 +1,7 @@
 @reference "../index.css";
 
 .study-item {
-    @apply flex flex-col lg:flex-row h-full lg:h-[300px];
+    @apply flex flex-col lg:flex-row h-auto lg:h-[300px];
 }
 
 .study-image {
@@ -9,7 +9,7 @@
 }
 
 .study-details {
-    @apply  w-full py-8  flex flex-col justify-between items-start lg:pl-15 h-[350px] md:h-[300px] lg:h-full;
+    @apply  w-full py-8  flex flex-col justify-between items-start lg:pl-15 h-auto md:h-[300px] lg:h-full;
 }
 
 .study-text-group {
@@ -29,19 +29,19 @@
 }
 
 .study-certificate-btn {
-    @apply flex-row flex items-center rounded-md py-2 px-4 text-contrast bg-gold hover:bg-gold-dark ;
+    @apply flex-row flex items-center rounded-md py-2 px-4 mt-6 md:mt-0 text-contrast bg-gold hover:bg-gold-dark ;
 }
 
 .studies-section {
-    @apply w-screen flex flex-col items-center justify-center bg-crema  gap-15 lg:pb-20 ;
+    @apply w-screen flex flex-col items-center justify-center bg-crema gap-10 lg:gap-15 lg:pb-20;
 }
 
 .studies-container {
-    @apply text-black font-bold py-12 flex flex-wrap justify-center lg:w-4/6 w-full lg:px-0 md:px-15 px-10;
+    @apply text-black font-bold py-8 md:py-12 flex flex-wrap justify-center lg:w-4/6 w-full lg:px-0 md:px-15 px-6 sm:px-10;
 }
 
 .studies-list {
-    @apply flex flex-col gap-10 flex-wrap text-left w-full h-full;
+    @apply flex flex-col gap-8 md:gap-10 flex-wrap text-left w-full h-full;
 }
 .gap-nav-studies{
     @apply pt-10;

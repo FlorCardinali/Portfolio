@@ -1,13 +1,13 @@
 @reference "../index.css";
 
 .about-section {
-    @apply bg-bgcolor md:min-h-screen pt-20 pb-10  md:p-0 flex flex-col justify-center items-center;
+    @apply bg-bgcolor md:min-h-screen pt-16 pb-8 md:p-0 flex flex-col justify-center items-center;
 }
 
 
 
 .about-container {
-    @apply bg-transparent gap-10 lg:gap-30 flex md:flex-row flex-col-reverse justify-center p-12;
+    @apply bg-transparent gap-8 lg:gap-20 flex md:flex-row flex-col-reverse justify-center p-6 sm:p-10 lg:p-12;
 }
 
 .about-content {

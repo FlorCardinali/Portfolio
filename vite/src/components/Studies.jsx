@@ -65,7 +65,7 @@ const Studies = () => {
 
 
                     {link === "" ? <></> :
-                        <a href={link} target="_blank" className="study-certificate-btn">Certificado
+                        <a href={link} target="_blank" className="study-certificate-btn">Certification
                             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                                 <path d="M5 12h14M12 5l7 7-7 7"></path>
                             </svg>
@@ -84,7 +84,7 @@ const Studies = () => {
             </div>
             <RevealOnScroll>
                 <Title
-                    title="Estudios"
+                    title="Studies"
                     content=""
                     colorFrom="gold-dark"
                     colorTo="gold"
