@@ -182,8 +182,17 @@ const Proyects = () => {
         unity: {
             name: "Unity",
             svg: (
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="50" height="50" fill="currentColor">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="50" height="50" fill="#fff">
                     <path d="m12.9288 4.2939 3.7997 2.1929c.1366.077.1415.2905 0 .3675l-4.515 2.6076a.4192.4192 0 0 1-.4246 0L7.274 6.8543c-.139-.0745-.1415-.293 0-.3675l3.7972-2.193V0L1.3758 5.5977V16.793l3.7177-2.1456v-4.3858c-.0025-.1565.1813-.2682.318-.1838l4.5148 2.6076a.4252.4252 0 0 1 .2136.3676v5.2127c.0025.1565-.1813.2682-.3179.1838l-3.7996-2.1929-3.7178 2.1457L12 24l9.6954-5.5977-3.7178-2.1457-3.7996 2.1929c-.1341.082-.3229-.0248-.3179-.1838V13.053c0-.1565.087-.2956.2136-.3676l4.5149-2.6076c.134-.082.3228.0224.3179.1838v4.3858l3.7177 2.1456V5.5977L12.9288 0Z" />
+                </svg>
+            )
+        },
+        substancePainter: {
+            name: "Substance 3D Painter",
+            svg: (
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="50" height="50" aria-hidden="true">
+                    <rect width="24" height="24" rx="4" fill="#172b00" />
+                    <text x="12" y="16.5" textAnchor="middle" fontFamily="Arial, sans-serif" fontSize="10" fontWeight="700" letterSpacing="-0.7" fill="#8bdc32">Pt</text>
                 </svg>
             )
         },
@@ -310,6 +319,13 @@ const Proyects = () => {
     ];
 
     const gameDevProjects = [
+        {
+            title: "El Secreto del Naposta",
+            content: "A dark puzzle thriller set beneath Bahía Blanca, where you materialize drawings into objects to solve puzzles and uncover the secrets of a supernatural prison.",
+            img: "/naposta.png",
+            link: "https://snowfox-studio.itch.io/el-secreto-del-naposta",
+            technologies: ["unity", "c#", "krita", "blender", "substancePainter"]
+        },
          {
             title: "Mochi's Journey",
             content: "A charming little narrative adventure. Endearing characters and unexpected encounters. Decisions that will shape your story.",
@@ -356,7 +372,7 @@ const Proyects = () => {
             title: "Bay of Cthulhu",
             content: "A game developed during a 3-day Game Jam with a team of two developers, two illustrators, and a sound designer.",
             img: "/proyecto1.webp",
-            link: "https://florenciacardinali.itch.io/bay-of-cthulhu",
+            link: "https://snowfox-studio.itch.io/bay-of-cthulhu",
             technologies: ["unity", "csharp"]
         },
         {
@@ -378,12 +394,12 @@ const Proyects = () => {
                     content=""
                 />
             </RevealOnScroll>
-            <div className="projects-container projects-content-front">
+            <div className="projects-container projects-content-gamedev">
                 <RevealOnScroll>
-                    <h3 className='frontend-title'> <span className="punto-titulos">●</span> Front-End Develpment</h3>
+                    <h3 className='gamedev-title'><span className="project-section-index">01</span> Game Development</h3>
                 </RevealOnScroll>
                 <div className="projects-grid">
-                    {frontendProjects.map((project, index) => (
+                    {gameDevProjects.map((project, index) => (
                         <RevealOnScroll key={index}>
                             <CardProyect
                                 title={project.title}
@@ -398,12 +414,12 @@ const Proyects = () => {
                 </div>
             </div>
 
-            <div className="projects-container projects-content-gamedev">
+            <div className="projects-container projects-content-front">
                 <RevealOnScroll>
-                    <h3 className='gamedev-title'><span className="punto-titulos">●</span> Game Development</h3>
+                    <h3 className='frontend-title'><span className="project-section-index">02</span> Front-End Development</h3>
                 </RevealOnScroll>
                 <div className="projects-grid">
-                    {gameDevProjects.map((project, index) => (
+                    {frontendProjects.map((project, index) => (
                         <RevealOnScroll key={index}>
                             <CardProyect
                                 title={project.title}

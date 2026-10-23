@@ -8,6 +8,12 @@ const Experience = () => {
 
     const data = [
         {
+            "categoria": "UX/UI DESIGN",
+            "fecha": "Apr 2026 - Present",
+            "titulo": "UX/UI Designer — Hernandez & Asociados",
+            "descripción": "I design clear, easy-to-use screens in Figma for a small business that offers services to real estate agencies."
+        },
+        {
             "categoria": "ADMINISTRATION - PROGRAMMING",
             "fecha": "Sep 2024 - May 2025",
             "titulo": "ERP Administration and Data Entry",
@@ -35,19 +41,21 @@ const Experience = () => {
 
 
 
-    const ExpModule = (props) => {
-        const d = props.d;
+    const ExpModule = ({ d, index }) => {
         return (
-            <div className="exp-item">
+            <article className="exp-item">
                 <div className="exp-item-meta">
-                    <span className="exp-item-category">{d.categoria}</span>
-                    <time className="exp-item-date">{d.fecha}</time>
+                    <span className="exp-item-number">{String(index + 1).padStart(2, "0")}</span>
                 </div>
                 <div className="exp-item-body">
+                    <div className="exp-item-heading">
+                        <span className="exp-item-category">{d.categoria}</span>
+                        <time className="exp-item-date">{d.fecha}</time>
+                    </div>
                     <h3 className="exp-item-title">{d.titulo}</h3>
                     <p className="exp-item-desc">{d.descripción}</p>
                 </div>
-            </div>
+            </article>
         );
     }
 
@@ -70,7 +78,7 @@ const Experience = () => {
                 <div className="experience-list">
                     {data.map((item, index) => (
                         <RevealOnScroll key={index}>
-                            <ExpModule d={item} />
+                            <ExpModule d={item} index={index} />
                         </RevealOnScroll>
                     ))}
                 </div>

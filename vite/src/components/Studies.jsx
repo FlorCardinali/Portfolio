@@ -51,27 +51,24 @@ const Studies = () => {
     const ItemStudy = ({ title, subtitle, contenido, link, img }) => {
         return (
             <article className="study-item">
-                <span href={link ? link : ""} onClick={(e) => { if (!link) e.preventDefault(); }} target="_blank">
-                    <img className="study-image" src={img}></img>
-                </span>
-
-
+                <div className="study-image-wrap">
+                    <img className="study-image" src={img} alt={`Logo de ${subtitle}`} />
+                    <span className="study-image-accent" aria-hidden="true">EDUCATION</span>
+                </div>
                 <div className="study-details">
                     <div className="study-text-group">
-                        <h3 className="study-title">{title}</h3>
                         <span className="study-subtitle">{subtitle}</span>
+                        <h3 className="study-title">{title}</h3>
                         <p className="study-description">{contenido}</p>
                     </div>
 
-
-                    {link === "" ? <></> :
-                        <a href={link} target="_blank" className="study-certificate-btn">Certification
+                    {link &&
+                        <a href={link.trim()} target="_blank" rel="noreferrer" className="study-certificate-btn">View certificate
                             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                                 <path d="M5 12h14M12 5l7 7-7 7"></path>
                             </svg>
                         </a>
                     }
-
                 </div>
 
             </article>
@@ -83,12 +80,15 @@ const Studies = () => {
             <div id="education-section" className="gap-nav-studies">
             </div>
             <RevealOnScroll>
-                <Title
-                    title="Studies"
-                    content=""
-                    colorFrom="gold-dark"
-                    colorTo="gold"
-                />
+                <div className="studies-heading">
+                    <span className="studies-kicker">WHAT I HAVE LEARNED</span>
+                    <Title
+                        title="Studies"
+                        content="Courses and studies that help me make games and software."
+                        colorFrom="gold-dark"
+                        colorTo="gold"
+                    />
+                </div>
             </RevealOnScroll>
 
             <article className="studies-container">

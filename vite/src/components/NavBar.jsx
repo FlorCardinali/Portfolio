@@ -33,7 +33,6 @@ const NavBar = () => {
                     <a href="#proyects-section" className="navbar-link">Projects</a>
                     <a href="#education-section" className="navbar-link">Education</a>
 
-                    <a href="#contact-section" className="navbar-link">Contact</a>
                 </nav>
 
                 <nav className={`navbar-mobile-menu ${open ? "navbar-mobile-open" : "navbar-mobile-closed"}`}>
@@ -43,7 +42,6 @@ const NavBar = () => {
                     <a href="#proyects-section" className="navbar-link">Projects</a>
                     <a href="#education-section" className="navbar-link">Education</a>
 
-                    <a href="#contact-section" className="navbar-link">Contact</a>
                 </nav>
 
                 <button className={`navbar-burger ${open ? "navbar-burger-open" : ""}`} onClick={handleClick}>

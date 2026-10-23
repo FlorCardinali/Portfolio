@@ -19,6 +19,7 @@ const AboutMe = () => {
                 <div className="about-container">
 
                     <article className="about-content">
+                        <span className="about-eyebrow">DEVELOPER · PROGRAMMER · GAME CREATOR</span>
                         <p id="about-text">
 
                             Hi, I’m <span className="about-highlight">Florencia Cardinali</span>. I have a degree in Programming from the Universidad Tecnológica Nacional (UTN).
@@ -32,7 +33,8 @@ const AboutMe = () => {
 
                         </p>
                     </article>
-                    <div className="about-image">
+                    <div className="about-image-frame">
+                        <img className="about-image" src="/yo.jpeg" alt="Florencia Cardinali" />
                     </div>
                 </div>
             </RevealOnScroll>

@@ -1,24 +1,96 @@
 @reference "../index.css";
+
 .footer-container {
-    @apply text-contrast pt-12 md:pt-16 bg-bgcolor flex flex-col items-center;
+    @apply relative overflow-hidden bg-bgcolor text-contrast px-6 sm:px-10 md:px-16 pt-16 md:pt-20;
 }
 
-.footer-tech-section {
-    @apply flex flex-col w-full max-w-xs px-6 space-y-4;
+.footer-container::before {
+    content: "";
+    position: absolute;
+    top: -14rem;
+    right: -10rem;
+    width: 32rem;
+    height: 32rem;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgb(216 205 142 / 10%), transparent 68%);
+    pointer-events: none;
 }
 
-.footer-tech-title {
-    @apply text-center font-bold text-xl;
+.footer-main {
+    @apply relative z-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-[2fr_1fr_1fr_1fr] gap-10 lg:gap-12 max-w-7xl mx-auto pb-14 md:pb-16;
 }
 
-.footer-tech-icons {
-    @apply flex w-full items-center justify-center gap-6 md:gap-8 flex-wrap md:flex-nowrap;
+.footer-intro {
+    @apply flex flex-col items-start;
 }
 
-.footer-copyright-wrapper {
-    @apply w-full flex justify-center;
+.footer-eyebrow {
+    @apply mb-3 text-[10px] font-extrabold tracking-[0.2em] text-gold-light;
 }
 
-.footer-copyright-text {
-    @apply text-gray-500 py-8 text-sm sm:text-left;
+.footer-name {
+    @apply text-3xl sm:text-4xl font-black tracking-tight text-contrast;
+}
+
+.footer-name span {
+    @apply text-gold-light;
+}
+
+.footer-bio {
+    @apply mt-4 max-w-md text-sm leading-relaxed text-contrast/65;
+}
+
+.footer-cta {
+    @apply mt-6 inline-flex items-center gap-3 rounded-full border border-gold-light/40 bg-gold-light/10 px-5 py-2.5 text-sm font-semibold text-gold-light transition-all duration-200;
+}
+
+.footer-cta:hover {
+    @apply bg-gold-light text-bgcolor;
+}
+
+.footer-column-title {
+    @apply mb-5 text-sm font-bold uppercase tracking-[0.14em] text-gold-light;
+}
+
+.footer-focus,
+.footer-navigation,
+.footer-socials {
+    @apply flex flex-col items-start gap-3;
+}
+
+.footer-focus > span,
+.footer-navigation > a,
+.footer-socials > a {
+    @apply text-sm text-contrast/65 transition-colors duration-200;
+}
+
+.footer-navigation > a:hover,
+.footer-socials > a:hover {
+    @apply text-gold-light;
+}
+
+.footer-socials > a {
+    @apply flex items-center gap-2;
+}
+
+.footer-socials > a span {
+    @apply text-gold-light/70;
+}
+
+.footer-bottom {
+    @apply relative z-10 flex flex-col sm:flex-row items-center justify-between gap-3 border-t border-contrast/10 py-6 text-xs text-contrast/45;
+}
+
+.footer-heart {
+    @apply text-bronze;
+}
+
+@media (max-width: 639px) {
+    .footer-main {
+        @apply grid-cols-2 gap-x-5 gap-y-9;
+    }
+
+    .footer-intro {
+        @apply col-span-2;
+    }
 }

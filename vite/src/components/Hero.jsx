@@ -25,6 +25,7 @@ const Hero = () => {
                         <SocailMediaIcons ruta="/github.png" alt="GitHub" link="https://github.com/FlorCardinali" />
                         <SocailMediaIcons ruta="/linkedin.png" alt="LinkedIn" link="https://www.linkedin.com/in/florencia-cardinali/" />
                         <SocailMediaIcons ruta="/instagram.png" alt="Instagram" link="https://www.instagram.com/flor_cardinalii/" />
+                        <SocailMediaIcons ruta="/itchio.svg" alt="itch.io" link="https://snowfox-studio.itch.io/" />
                     </div>
                 </div>
 

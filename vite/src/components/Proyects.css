@@ -2,6 +2,20 @@
 
 .projects-section {
     @apply bg-bgcolor w-screen flex flex-col items-center overflow-x-hidden gap-8 pb-24 lg:pb-32;
+    position: relative;
+}
+
+.projects-section::after {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 3rem;
+    background: var(--color-crema);
+    clip-path: ellipse(85% 100% at 50% 100%);
+    pointer-events: none;
 }
 .projects-content-front{
     @apply py-5;
@@ -13,13 +27,26 @@
     @apply w-screen h-[45px];
 }
 .frontend-title{
-    @apply  font-medium tracking-widest text-3xl text-contrast w-full ;
+    @apply relative flex items-center gap-4 font-semibold tracking-wide text-2xl sm:text-3xl text-contrast w-full pb-4;
 }
 .gamedev-title{
-    @apply  font-medium tracking-widest text-3xl text-contrast w-full;
+    @apply relative flex items-center gap-4 font-semibold tracking-wide text-2xl sm:text-3xl text-contrast w-full pb-4;
 }
-.punto-titulos{
-    @apply text-gold-light/70;
+
+.frontend-title::after,
+.gamedev-title::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(90deg, rgb(216 205 142 / 75%), rgb(216 205 142 / 18%) 70%, transparent);
+}
+
+.project-section-index {
+    @apply flex shrink-0 items-center justify-center w-10 h-10 rounded-full border border-gold-light/50 text-xs font-bold tracking-normal text-gold-light bg-gold-light/5;
+    box-shadow: 0 0 18px rgb(216 205 142 / 12%);
 }
 
 .projects-container {
@@ -60,6 +87,7 @@
     left: 0;
     right: 0;
     bottom: 0;
+    padding-bottom: 4.5rem;
 }
 
 .project-card.hovered .project-card-body {
@@ -75,7 +103,8 @@
 }
 
 .project-card-techs {
-    @apply flex flex-wrap gap-2 mt-4 items-center w-full;
+    @apply absolute bottom-6 right-6 flex flex-wrap justify-end gap-2 items-center;
+    max-width: calc(100% - 3rem);
 }
 
 .project-card-tech-icon {
