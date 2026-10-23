@@ -319,19 +319,20 @@ const Proyects = () => {
     ];
 
     const gameDevProjects = [
-        {
-            title: "El Secreto del Naposta",
-            content: "A dark puzzle thriller set beneath Bahía Blanca, where you materialize drawings into objects to solve puzzles and uncover the secrets of a supernatural prison.",
-            img: "/naposta.png",
-            link: "https://snowfox-studio.itch.io/el-secreto-del-naposta",
-            technologies: ["unity", "c#", "krita", "blender", "substancePainter"]
-        },
+        
          {
             title: "Mochi's Journey",
             content: "A charming little narrative adventure. Endearing characters and unexpected encounters. Decisions that will shape your story.",
             img: "/journey.png",
             link: "https://khuniuwu.itch.io/mochisjourney",
             technologies: ["unity", "c#", "krita"]
+        },
+        {
+            title: "El Secreto del Naposta",
+            content: "A dark puzzle thriller set beneath Bahía Blanca, where you materialize drawings into objects to solve puzzles and uncover the secrets of a supernatural prison.",
+            img: "/naposta.png",
+            link: "https://snowfox-studio.itch.io/el-secreto-del-naposta",
+            technologies: ["unity", "c#", "krita", "blender", "substancePainter"]
         },
         {
             title: "Rangi",
